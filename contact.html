@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — OSGeo Belgium</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.svg" alt="OSGeo·BE" class="nav-logo-full" />
+      </a>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
+        <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+        <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
+        <li><a href="contact.html" class="active" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener" class="nav-cta" data-i18n="nav.join">Rejoindre</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="nl">NL</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="index.html" data-i18n="bc.home">Accueil</a>
+        <span>›</span>
+        <span data-i18n="bc.contact">Contact &amp; Présentation</span>
+      </nav>
+      <h1 data-i18n="contact.hero.title">Contact &amp; Présentation</h1>
+      <p data-i18n="contact.hero.sub">Retrouvez-nous sur nos différents canaux.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start;" class="contact-layout">
+
+        <!-- LEFT: about + legal -->
+        <div>
+          <div style="margin-bottom:2.5rem;">
+            <p class="section-eyebrow" data-i18n="about2.eyebrow">Qui sommes-nous</p>
+            <h2 class="section-title" data-i18n="about2.title">À propos d'OSGeo Belgium</h2>
+            <p style="color:var(--text-mid);margin-bottom:1rem;" data-i18n-html="about2.p1">
+              OSGeo Belgium est le <strong>chapitre local belge</strong> de l'<a href="https://www.osgeo.org" target="_blank" rel="noopener">Open Source Geospatial Foundation (OSGeo)</a>.
+            </p>
+            <p style="color:var(--text-mid);margin-bottom:1rem;" data-i18n-html="about2.p2">
+              Fondée en 2013, notre association agit comme pont entre les communautés <strong>francophones, néerlandophones et germanophones</strong> de Belgique.
+            </p>
+            <p style="color:var(--text-mid);margin-bottom:1.5rem;" data-i18n-html="about2.p3">
+              Notre action couvre la création de communauté, l'organisation d'événements, le plaidoyer et le soutien aux initiatives OSGeo.
+            </p>
+            <a href="http://www.ejustice.just.fgov.be/tsv_pdf/2015/10/21/15317365.pdf"
+               target="_blank" rel="noopener" class="btn btn-outline"
+               style="display:inline-flex;align-items:center;gap:.5rem;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
+              <span data-i18n="about2.statutes">Consulter nos statuts officiels (PDF)</span>
+            </a>
+          </div>
+
+          <div class="contact-block">
+            <h3 data-i18n="legal.title">Informations légales</h3>
+            <dl class="legal-dl">
+              <div>
+                <dt data-i18n="legal.type">Forme juridique</dt>
+                <dd data-i18n="legal.type.val">Association Sans But Lucratif (ASBL)</dd>
+              </div>
+              <div><dt>N° entreprise</dt><dd>BE 0641.662.720</dd></div>
+              <div><dt>Banque</dt><dd>Triodos Bank</dd></div>
+              <div><dt>IBAN</dt><dd>BE78 5230 8075 3686</dd></div>
+              <div><dt>BIC</dt><dd>TRIOBEBB</dd></div>
+              <div>
+                <dt data-i18n="legal.published">Statuts publiés au</dt>
+                <dd data-i18n="legal.published.val">Moniteur belge, 21 octobre 2015</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <!-- RIGHT: channels -->
+        <div>
+          <p class="section-eyebrow" data-i18n="follow.eyebrow">Suivez-nous</p>
+          <h2 class="section-title" data-i18n="follow.title">Nos canaux</h2>
+
+          <!-- Main list -->
+          <div style="margin-bottom:1.5rem;">
+            <p style="font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:.65rem;" data-i18n="channel.main">Discussion principale</p>
+            <div class="social-grid">
+              <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener" class="social-link" style="flex:1 1 100%;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22,7-8.97,5.7a1.94,1.94,0,0,1-2.06,0L2,7"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="ml.name">Mailing list — Belgium</div><div style="font-size:.75rem;color:var(--text-muted);" data-i18n="ml.sub">lists.osgeo.org · Discussions publiques</div></div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Chat -->
+          <div style="margin-bottom:1.5rem;">
+            <p style="font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:.65rem;" data-i18n="channel.chat">Chat en temps réel</p>
+            <div class="social-grid">
+              <a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M.632.55v22.9H2.28V24H0V0h2.28v.55zm7.043 7.26v1.156h.033c.309-.443.683-.784 1.117-1.024.433-.245.936-.365 1.5-.365.54 0 1.033.107 1.481.314.448.208.785.582 1.02 1.108.254-.374.6-.706 1.032-.992.434-.287.95-.43 1.546-.43.453 0 .872.056 1.26.167.388.11.716.286.993.53.276.245.489.559.646.951.152.392.23.86.23 1.393v5.556H15.2V11.73c0-.267-.01-.515-.034-.748a1.72 1.72 0 0 0-.18-.6 1.016 1.016 0 0 0-.406-.413c-.174-.1-.42-.148-.735-.148-.315 0-.564.063-.752.19a1.366 1.366 0 0 0-.46.505 2.033 2.033 0 0 0-.22.695 5.56 5.56 0 0 0-.057.785v4.127h-2.35V11.8c0-.233-.006-.457-.018-.671a1.795 1.795 0 0 0-.15-.596 1.03 1.03 0 0 0-.388-.425c-.174-.11-.435-.165-.784-.165-.106 0-.245.023-.415.07a1.29 1.29 0 0 0-.49.258 1.52 1.52 0 0 0-.39.526c-.106.228-.16.53-.16.907v4.42H5.43V7.81zm15.693 15.64V.55H21.72V0H24v24h-2.28v-.55z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="matrix.gen.name">Matrix — Salon général</div><div style="font-size:.75rem;color:var(--text-muted);">#osgeo-be:matrix.org</div></div>
+              </a>
+              <a href="https://matrix.to/#/#osgeo-be-members:matrix.org" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M.632.55v22.9H2.28V24H0V0h2.28v.55zm7.043 7.26v1.156h.033c.309-.443.683-.784 1.117-1.024.433-.245.936-.365 1.5-.365.54 0 1.033.107 1.481.314.448.208.785.582 1.02 1.108.254-.374.6-.706 1.032-.992.434-.287.95-.43 1.546-.43.453 0 .872.056 1.26.167.388.11.716.286.993.53.276.245.489.559.646.951.152.392.23.86.23 1.393v5.556H15.2V11.73c0-.267-.01-.515-.034-.748a1.72 1.72 0 0 0-.18-.6 1.016 1.016 0 0 0-.406-.413c-.174-.1-.42-.148-.735-.148-.315 0-.564.063-.752.19a1.366 1.366 0 0 0-.46.505 2.033 2.033 0 0 0-.22.695 5.56 5.56 0 0 0-.057.785v4.127h-2.35V11.8c0-.233-.006-.457-.018-.671a1.795 1.795 0 0 0-.15-.596 1.03 1.03 0 0 0-.388-.425c-.174-.11-.435-.165-.784-.165-.106 0-.245.023-.415.07a1.29 1.29 0 0 0-.49.258 1.52 1.52 0 0 0-.39.526c-.106.228-.16.53-.16.907v4.42H5.43V7.81zm15.693 15.64V.55H21.72V0H24v24h-2.28v-.55z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="matrix.mem.name">Matrix — Salon membres</div><div style="font-size:.75rem;color:var(--text-muted);">#osgeo-be-members:matrix.org</div></div>
+              </a>
+              <a href="https://t.me/osgeobelgium" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.96 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="tg.name">Telegram</div><div style="font-size:.75rem;color:var(--text-muted);">@osgeobelgium</div></div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Social media -->
+          <div style="margin-bottom:1.5rem;">
+            <p style="font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:.65rem;" data-i18n="channel.social">Réseaux sociaux</p>
+            <div class="social-grid">
+              <a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="masto.name">Mastodon</div><div style="font-size:.75rem;color:var(--text-muted);">@osgeobe@fosstodon.org</div></div>
+              </a>
+              <a href="https://twitter.com/osgeobe" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="tw1.name">Twitter / X — OSGeo BE</div><div style="font-size:.75rem;color:var(--text-muted);">@osgeobe</div></div>
+              </a>
+              <a href="https://twitter.com/foss4gbe" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="tw2.name">Twitter / X — FOSS4G BE</div><div style="font-size:.75rem;color:var(--text-muted);">@foss4gbe</div></div>
+              </a>
+              <a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="fb.name">Facebook — FOSS4G Belgium</div><div style="font-size:.75rem;color:var(--text-muted);">Foss4g Belgium</div></div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Web -->
+          <div>
+            <p style="font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:.65rem;" data-i18n="channel.web">Ressources web</p>
+            <div class="social-grid">
+              <a href="https://wiki.osgeo.org/wiki/Belgium" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="wiki.name">Wiki OSGeo Belgium</div><div style="font-size:.75rem;color:var(--text-muted);">wiki.osgeo.org/wiki/Belgium</div></div>
+              </a>
+              <a href="https://www.foss4g.be" target="_blank" rel="noopener" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <div><div style="font-size:.85rem;font-weight:600;" data-i18n="foss4gsite.name">Site FOSS4G Belgium</div><div style="font-size:.75rem;color:var(--text-muted);">foss4g.be</div></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN CTA -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="join-banner">
+        <div>
+          <h2 data-i18n="join.cta.main">Devenez membre</h2>
+          <p data-i18n="join.cta.text">Rejoignez OSGeo Belgium en vous inscrivant sur notre mailing list. L'adhésion est ouverte à tous, gratuitement.</p>
+        </div>
+        <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener" class="btn btn-primary" style="flex-shrink:0;" data-i18n="join.cta.btn">S'inscrire à la mailing list</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="logo.svg" alt="OSGeo·BE" />
+          <p data-i18n="footer.brand.text">Chapitre local belge de l'Open Source Geospatial Foundation. Association sans but lucratif fondée en 2013.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav">Navigation</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+            <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
+            <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+            <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.resources">Ressources</h4>
+          <ul>
+            <li><a href="https://wiki.osgeo.org/wiki/Belgium" target="_blank" rel="noopener">Wiki OSGeo</a></li>
+            <li><a href="https://www.foss4g.be" target="_blank" rel="noopener">FOSS4G.be</a></li>
+            <li><a href="https://www.osgeo.org" target="_blank" rel="noopener">OSGeo Global</a></li>
+            <li><a href="http://www.ejustice.just.fgov.be/tsv_pdf/2015/10/21/15317365.pdf" target="_blank" rel="noopener" data-i18n="footer.statutes">Statuts officiels</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.follow">Suivez-nous</h4>
+          <ul>
+            <li><a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener">Mastodon</a></li>
+            <li><a href="https://twitter.com/osgeobe" target="_blank" rel="noopener">Twitter / X</a></li>
+            <li><a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener">Matrix</a></li>
+            <li><a href="https://t.me/osgeobelgium" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 OSGeo Belgium — BE 0641.662.720 — IBAN BE78 5230 8075 3686 (Triodos)</p>
+        <div class="footer-social">
+          <a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener" title="Mastodon">M</a>
+          <a href="https://twitter.com/osgeobe" target="_blank" rel="noopener" title="Twitter">X</a>
+          <a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener" title="Matrix">[m]</a>
+          <a href="https://t.me/osgeobelgium" target="_blank" rel="noopener" title="Telegram">tg</a>
+          <a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener" title="Facebook">fb</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

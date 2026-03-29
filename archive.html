@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Événements — OSGeo Belgium</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.svg" alt="OSGeo·BE" class="nav-logo-full" />
+      </a>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="archive.html" class="active" data-i18n="nav.events">Événements</a></li>
+        <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+        <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener" class="nav-cta" data-i18n="nav.join">Rejoindre</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="nl">NL</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="index.html" data-i18n="bc.home">Accueil</a>
+        <span>›</span>
+        <span data-i18n="bc.events">Événements</span>
+      </nav>
+      <h1 data-i18n="archive.hero.title">Archive des événements</h1>
+      <p data-i18n="archive.hero.sub">Tous les événements passés organisés ou soutenus par OSGeo Belgium depuis 2013.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- FOSS4G SITES -->
+      <div style="background:var(--green-pale);border:1px solid #b8e0c0;border-radius:var(--radius-lg);padding:1.5rem;margin-bottom:2.5rem;">
+        <p class="section-eyebrow" style="margin-bottom:.5rem;">FOSS4G Belgium</p>
+        <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:.75rem;color:var(--green-dark);" data-i18n="foss4g.section.title">Sites FOSS4G Belgium par année</h2>
+        <div class="foss4g-years-grid">
+          <a href="https://www.foss4g.be" target="_blank" rel="noopener" class="foss4g-year-card foss4g-current">
+            <span class="fy-year">2025</span><span class="fy-label">foss4g.be</span><span class="fy-badge">Actuel</span>
+          </a>
+          <a href="https://2024.foss4g.be/" target="_blank" rel="noopener" class="foss4g-year-card">
+            <span class="fy-year">2024</span><span class="fy-label">BE+NL · Baarle</span>
+          </a>
+          <a href="https://2022.foss4g.be/" target="_blank" rel="noopener" class="foss4g-year-card">
+            <span class="fy-year">2022</span><span class="fy-label">Belgique</span>
+          </a>
+          <a href="https://2018.foss4g.be/" target="_blank" rel="noopener" class="foss4g-year-card">
+            <span class="fy-year">2018</span><span class="fy-label">Belgique</span>
+          </a>
+          <a href="https://2016.foss4g.be/" target="_blank" rel="noopener" class="foss4g-year-card">
+            <span class="fy-year">2016</span><span class="fy-label">Bruxelles</span>
+          </a>
+          <a href="http://2015.foss4g.be/" target="_blank" rel="noopener" class="foss4g-year-card">
+            <span class="fy-year">2015</span><span class="fy-label">Bruxelles</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- FILTER -->
+      <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2rem;" id="filter-bar">
+        <button class="btn btn-sm btn-dark active-filter" data-filter="all" data-i18n="filter.all">Tout</button>
+        <button class="btn btn-sm btn-ghost" data-filter="foss4g" data-i18n="filter.foss4g">FOSS4G</button>
+        <button class="btn btn-sm btn-ghost" data-filter="fosdem" data-i18n="filter.fosdem">FOSDEM</button>
+        <button class="btn btn-sm btn-ghost" data-filter="ag" data-i18n="filter.ag">Assemblée générale</button>
+        <button class="btn btn-sm btn-ghost" data-filter="geodev" data-i18n="filter.geodev">Géodév</button>
+        <button class="btn btn-sm btn-ghost" data-filter="osm" data-i18n="filter.osm">OpenStreetMap</button>
+        <button class="btn btn-sm btn-ghost" data-filter="international" data-i18n="filter.intl">International</button>
+      </div>
+
+      <!-- 2025 -->
+      <div class="year-group">
+        <h2 class="year-heading">2025</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="foss4g">
+            <div class="ev-date">25 sept. 2025</div>
+            <div><div class="ev-title"><a href="https://www.foss4g.be" target="_blank" rel="noopener">FOSS4G Belgium 2025</a></div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">FOSS4G</span>
+          </div>
+          <div class="archive-event" data-tags="ag">
+            <div class="ev-date">21 nov. 2025</div>
+            <div><div class="ev-title"><a href="ag.html">Assemblée Générale 2025</a></div><div class="ev-loc">📍 Cercle des Voyageurs, Bruxelles — 18h30</div></div>
+            <span class="ev-badge">AG</span>
+          </div>
+          <div class="archive-event" data-tags="foss4g">
+            <div class="ev-date">3 déc. 2025</div>
+            <div><div class="ev-title">FOSS4G Debriefing 2025</div><div class="ev-loc">📍 Cercle des Voyageurs, Bruxelles — 18h30</div></div>
+            <span class="ev-badge">Communauté</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2024 -->
+      <div class="year-group">
+        <h2 class="year-heading">2024</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="foss4g">
+            <div class="ev-date">25–27 sept. 2024</div>
+            <div><div class="ev-title"><a href="https://2024.foss4g.be/" target="_blank" rel="noopener">FOSS4G BE+NL 2024</a></div><div class="ev-loc">📍 Baarle (BE/NL) — présentations, ateliers, code sprint</div></div>
+            <span class="ev-badge">FOSS4G</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2023 -->
+      <div class="year-group">
+        <h2 class="year-heading">2023</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="ag">
+            <div class="ev-date">16 mai 2023</div>
+            <div><div class="ev-title"><a href="https://wiki.osgeo.org/wiki/OSGeo-BE-general-assembly-minutes-20230516" target="_blank" rel="noopener">Assemblée Générale 2023</a></div><div class="ev-loc">Reportée du 18 mai (Ascension)</div></div>
+            <span class="ev-badge">AG</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">30 mai 2023</div>
+            <div><div class="ev-title">Géodév Evening — PostgreSQL &amp; PostGIS</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">13 juin 2023</div>
+            <div><div class="ev-title">Géodév Evening — PostGIS Topology</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2022 -->
+      <div class="year-group">
+        <h2 class="year-heading">2022</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">28 mars 2022</div>
+            <div><div class="ev-title">Spring Session</div><div class="ev-loc">📍 BrewDog Brussels</div></div>
+            <span class="ev-badge">Communauté</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">26 juil. 2022</div>
+            <div><div class="ev-title">After Work</div><div class="ev-loc">📍 BrewDog Brussels</div></div>
+            <span class="ev-badge">Communauté</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">13 sept. 2022</div>
+            <div><div class="ev-title">After Work</div><div class="ev-loc">📍 BrewDog Brussels</div></div>
+            <span class="ev-badge">Communauté</span>
+          </div>
+          <div class="archive-event" data-tags="foss4g osm">
+            <div class="ev-date">17 nov. 2022</div>
+            <div><div class="ev-title"><a href="https://2022.foss4g.be/" target="_blank" rel="noopener">FOSS4G &amp; SotM Belgium 2022</a></div><div class="ev-loc">📍 Belgique</div></div>
+            <span class="ev-badge">FOSS4G</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2019 -->
+      <div class="year-group">
+        <h2 class="year-heading">2019</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">10 janv. 2019</div>
+            <div><div class="ev-title">F2F New Year's Meeting</div><div class="ev-loc">📍 Dolle Mol</div></div>
+            <span class="ev-badge">Communauté</span>
+          </div>
+          <div class="archive-event" data-tags="fosdem">
+            <div class="ev-date">2–3 fév. 2019</div>
+            <div><div class="ev-title">FOSDEM 2019 — Geospatial devroom</div><div class="ev-loc">📍 ULB, Bruxelles</div></div>
+            <span class="ev-badge">FOSDEM</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">4 mars 2019</div>
+            <div><div class="ev-title">Open Belgium Conference</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Communauté</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">19 mars 2019</div>
+            <div><div class="ev-title">BEGEO 2019</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+          <div class="archive-event" data-tags="ag">
+            <div class="ev-date">24 avr. 2019</div>
+            <div><div class="ev-title"><a href="https://wiki.osgeo.org/wiki/OSGeo-BE-general-assembly-minutes-20190424" target="_blank" rel="noopener">Assemblée Générale 2019</a></div><div class="ev-loc">📍 Central Station, Bruxelles</div></div>
+            <span class="ev-badge">AG</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">25 avr. 2019</div>
+            <div><div class="ev-title">Géodév Evening — Data Access &amp; PostGIS</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">12 juin 2019</div>
+            <div><div class="ev-title">Géodév Evening — Python &amp; Géospatial</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+          <div class="archive-event" data-tags="international foss4g">
+            <div class="ev-date">26–30 août 2019</div>
+            <div><div class="ev-title">FOSS4G International 2019</div><div class="ev-loc">📍 Bucarest, Roumanie</div></div>
+            <span class="ev-badge">International</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2018 -->
+      <div class="year-group">
+        <h2 class="year-heading">2018</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="international">
+            <div class="ev-date">18–25 mars 2018</div>
+            <div><div class="ev-title">OSGeo Code Sprint</div><div class="ev-loc">📍 Bonn, Allemagne</div></div>
+            <span class="ev-badge">International</span>
+          </div>
+          <div class="archive-event" data-tags="osm">
+            <div class="ev-date">24 mars 2018</div>
+            <div><div class="ev-title">National Missing Maps Mapathon 2018</div></div>
+            <span class="ev-badge">OpenStreetMap</span>
+          </div>
+          <div class="archive-event" data-tags="ag">
+            <div class="ev-date">26 mars 2018</div>
+            <div><div class="ev-title"><a href="https://wiki.osgeo.org/wiki/OSGeo-BE-general-assembly-minutes-20180326" target="_blank" rel="noopener">Assemblée Générale 2018</a></div></div>
+            <span class="ev-badge">AG</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">24 avr. 2018</div>
+            <div><div class="ev-title">BeGeo 2018</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+          <div class="archive-event" data-tags="international foss4g">
+            <div class="ev-date">17–19 juil. 2018</div>
+            <div><div class="ev-title"><a href="https://2018.foss4g.be/" target="_blank" rel="noopener">FOSS4G Europe 2018</a></div></div>
+            <span class="ev-badge">FOSS4G</span>
+          </div>
+          <div class="archive-event" data-tags="international foss4g">
+            <div class="ev-date">27 août – 2 sept. 2018</div>
+            <div><div class="ev-title">FOSS4G International 2018</div><div class="ev-loc">📍 Dar-es-Salam, Tanzanie</div></div>
+            <span class="ev-badge">International</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2017 -->
+      <div class="year-group">
+        <h2 class="year-heading">2017</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="fosdem">
+            <div class="ev-date">5 fév. 2017</div>
+            <div><div class="ev-title">FOSDEM 2017 — Geospatial devroom</div><div class="ev-loc">📍 ULB, Bruxelles</div></div>
+            <span class="ev-badge">FOSDEM</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">16 mars 2017</div>
+            <div><div class="ev-title">BeGeo 2017</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+          <div class="archive-event" data-tags="osm">
+            <div class="ev-date">25 mars 2017</div>
+            <div><div class="ev-title">National Mapathon 2017</div></div>
+            <span class="ev-badge">OpenStreetMap</span>
+          </div>
+          <div class="archive-event" data-tags="ag">
+            <div class="ev-date">29 mars 2017</div>
+            <div><div class="ev-title"><a href="https://wiki.osgeo.org/wiki/OSGeo-BE-general-assembly-minutes-20170329" target="_blank" rel="noopener">Assemblée Générale 2017</a></div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">AG</span>
+          </div>
+          <div class="archive-event" data-tags="international foss4g">
+            <div class="ev-date">18–22 juil. 2017</div>
+            <div><div class="ev-title">FOSS4G.EU 2017</div><div class="ev-loc">📍 Paris, France</div></div>
+            <span class="ev-badge">International</span>
+          </div>
+          <div class="archive-event" data-tags="foss4g">
+            <div class="ev-date">26 oct. 2017</div>
+            <div><div class="ev-title">FOSS4G.BE 2017</div><div class="ev-loc">📍 Belgique</div></div>
+            <span class="ev-badge">FOSS4G</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2016 -->
+      <div class="year-group">
+        <h2 class="year-heading">2016</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="fosdem">
+            <div class="ev-date">31 janv. 2016</div>
+            <div><div class="ev-title">FOSDEM 2016 — Geospatial devroom</div><div class="ev-loc">📍 ULB, Bruxelles</div></div>
+            <span class="ev-badge">FOSDEM</span>
+          </div>
+          <div class="archive-event" data-tags="osm">
+            <div class="ev-date">27 fév. 2016</div>
+            <div><div class="ev-title">Missing Maps — Mapping Party sans-abris</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">OpenStreetMap</span>
+          </div>
+          <div class="archive-event" data-tags="ag">
+            <div class="ev-date">24 mars 2016</div>
+            <div><div class="ev-title"><a href="https://wiki.osgeo.org/wiki/OSGeo-BE-general-assembly-20160324" target="_blank" rel="noopener">Assemblée Générale 2016</a></div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">AG</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">18 avr. 2016</div>
+            <div><div class="ev-title">OSGeo Dev Evening — OpenLayers 3</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Géodév</span>
+          </div>
+          <div class="archive-event" data-tags="foss4g">
+            <div class="ev-date">22 sept. 2016</div>
+            <div><div class="ev-title"><a href="https://2016.foss4g.be/" target="_blank" rel="noopener">FOSS4G Belgium 2016</a></div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">FOSS4G</span>
+          </div>
+          <div class="archive-event" data-tags="osm international">
+            <div class="ev-date">23–25 sept. 2016</div>
+            <div><div class="ev-title">State of the Map 2016</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">OpenStreetMap</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2015 -->
+      <div class="year-group">
+        <h2 class="year-heading">2015</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="fosdem">
+            <div class="ev-date">1 fév. 2015</div>
+            <div><div class="ev-title">FOSDEM 2015 — Geo Track</div><div class="ev-loc">📍 ULB, Bruxelles</div></div>
+            <span class="ev-badge">FOSDEM</span>
+          </div>
+          <div class="archive-event" data-tags="foss4g">
+            <div class="ev-date">29 oct. 2015</div>
+            <div><div class="ev-title"><a href="http://2015.foss4g.be/" target="_blank" rel="noopener">FOSS4G Belgium 2015</a></div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">FOSS4G</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2013–2014 -->
+      <div class="year-group">
+        <h2 class="year-heading">2013 – 2014</h2>
+        <div class="events-list">
+          <div class="archive-event" data-tags="foss4g">
+            <div class="ev-date">13 juin 2013</div>
+            <div><div class="ev-title">OSGeo Ghent — Réunion de fondation</div><div class="ev-loc">📍 Gand</div></div>
+            <span class="ev-badge">Fondation</span>
+          </div>
+          <div class="archive-event" data-tags="geodev">
+            <div class="ev-date">6 nov. 2014</div>
+            <div><div class="ev-title">beOpenGISfr</div><div class="ev-loc">📍 Bruxelles</div></div>
+            <span class="ev-badge">Communauté</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="logo.svg" alt="OSGeo·BE" />
+          <p data-i18n="footer.brand.text">Chapitre local belge de l'Open Source Geospatial Foundation.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav">Navigation</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+            <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
+            <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+            <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>FOSS4G</h4>
+          <ul>
+            <li><a href="https://www.foss4g.be" target="_blank" rel="noopener">2025 foss4g.be</a></li>
+            <li><a href="https://2024.foss4g.be/" target="_blank" rel="noopener">2024 BE+NL</a></li>
+            <li><a href="https://2022.foss4g.be/" target="_blank" rel="noopener">2022</a></li>
+            <li><a href="https://2018.foss4g.be/" target="_blank" rel="noopener">2018</a></li>
+            <li><a href="https://2016.foss4g.be/" target="_blank" rel="noopener">2016</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.follow">Suivez-nous</h4>
+          <ul>
+            <li><a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener">Mastodon</a></li>
+            <li><a href="https://twitter.com/osgeobe" target="_blank" rel="noopener">Twitter / X</a></li>
+            <li><a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener">Matrix</a></li>
+            <li><a href="https://t.me/osgeobelgium" target="_blank" rel="noopener">Telegram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 OSGeo Belgium — BE 0641.662.720 — IBAN BE78 5230 8075 3686 (Triodos)</p>
+        <div class="footer-social">
+          <a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener" title="Mastodon">M</a>
+          <a href="https://twitter.com/osgeobe" target="_blank" rel="noopener" title="Twitter">X</a>
+          <a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener" title="Matrix">[m]</a>
+          <a href="https://t.me/osgeobelgium" target="_blank" rel="noopener" title="Telegram">tg</a>
+          <a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener" title="Facebook">fb</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
