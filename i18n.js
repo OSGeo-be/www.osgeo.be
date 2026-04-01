@@ -15,7 +15,7 @@ const TRANSLATIONS = {
     "hero.cta2":     "Voir les événements",
 
     // STATS
-    "stat.founded":    "Fondé en",
+    "stat.founded":    "Incubé en",
     "stat.members":    "membres mailing list",
     "stat.conf":       "conférence locale annuelle",
     "stat.afterworks": "afterworks annuels",
@@ -268,7 +268,7 @@ const TRANSLATIONS = {
     "hero.cta1":     "Word lid",
     "hero.cta2":     "Bekijk evenementen",
 
-    "stat.founded":    "Opgericht in",
+    "stat.founded":    "Geïncubeerd in",
     "stat.members":    "leden mailinglijst",
     "stat.conf":       "lokale jaarlijkse conferentie",
     "stat.afterworks": "jaarlijkse afterworks",
@@ -510,7 +510,7 @@ const TRANSLATIONS = {
     "hero.cta1":     "Become a member",
     "hero.cta2":     "See events",
 
-    "stat.founded":    "Founded in",
+    "stat.founded":    "Incubated in",
     "stat.members":    "mailing list members",
     "stat.conf":       "local annual conference",
     "stat.afterworks": "annual afterworks",
