@@ -22,6 +22,7 @@
         <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
         <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
         <li><a href="links.html" class="active" data-i18n="nav.links">Sites amis</a></li>
+        <li><a href="resources.html" data-i18n="nav.resources">Ressources</a></li>
         <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         <li><a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener" class="nav-cta" data-i18n="nav.join">Rejoindre</a></li>
       </ul>
@@ -59,7 +60,9 @@
 
           <a href="https://openstreetmap.be/" target="_blank" rel="noopener" class="link-card">
             <div class="link-card-header">
-              <div class="link-icon link-icon-osm">OSM</div>
+              <div class="link-icon link-icon-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Openstreetmap_logo.svg" alt="OpenStreetMap" />
+              </div>
               <span class="link-tag" data-i18n="links.tag.community">Communauté</span>
             </div>
             <h3>OpenStreetMap Belgium</h3>
@@ -69,7 +72,9 @@
 
           <a href="https://www.meetup.com/postgresbe/" target="_blank" rel="noopener" class="link-card">
             <div class="link-card-header">
-              <div class="link-icon link-icon-pg">PgBE</div>
+              <div class="link-icon link-icon-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" />
+              </div>
               <span class="link-tag" data-i18n="links.tag.community">Communauté</span>
             </div>
             <h3>PgBE — PostgreSQL Users Group Belgium</h3>
@@ -79,22 +84,14 @@
 
           <a href="https://pgconf.be/" target="_blank" rel="noopener" class="link-card">
             <div class="link-card-header">
-              <div class="link-icon link-icon-pg">PgC</div>
+              <div class="link-icon link-icon-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" />
+              </div>
               <span class="link-tag" data-i18n="links.tag.event">Événement</span>
             </div>
             <h3>PGConf Belgium</h3>
             <p data-i18n="links.pgconf.desc">Conférence annuelle belge dédiée à PostgreSQL. Présentations techniques, ateliers et networking autour de la base de données open source de référence.</p>
             <span class="link-url">pgconf.be</span>
-          </a>
-
-          <a href="https://www.be-geo.be/" target="_blank" rel="noopener" class="link-card">
-            <div class="link-card-header">
-              <div class="link-icon link-icon-be">BG</div>
-              <span class="link-tag" data-i18n="links.tag.event">Événement</span>
-            </div>
-            <h3>BeGeo</h3>
-            <p data-i18n="links.begeo.desc">Conférence belge annuelle dédiée à la géomatique et aux technologies spatiales. Point de rencontre des professionnels GIS en Belgique.</p>
-            <span class="link-url">be-geo.be</span>
           </a>
 
         </div>
@@ -110,35 +107,36 @@
         <div class="links-grid links-grid-4">
 
           <div class="link-card link-card-volunteer">
-            <div class="link-icon link-icon-qgis" style="margin-bottom:.75rem;">Q</div>
+            <div class="link-icon link-icon-logo" style="margin-bottom:.75rem;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/QGIS_logo_new.svg" alt="QGIS" />
+            </div>
             <h3>QGIS Belgium</h3>
-            <p data-i18n="links.qgisbe.desc">Utilisateurs et contributeurs belges de QGIS. Échanges sur la mailing list OSGeo Belgium et lors des Géodév evenings.</p>
-            <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener" class="link-url" data-i18n="links.volunteer.via.ml">Via la mailing list OSGeo Belgium</a>
+            <p data-i18n="links.qgisbe.desc">Utilisateurs et contributeurs belges de QGIS. Échanges sur la mailing list QGIS et lors des GeoDev evenings.</p>
+            <a href="http://lists.osgeo.org/mailman/listinfo/qgis-user" target="_blank" rel="noopener" class="link-url">lists.osgeo.org/mailman/listinfo/qgis-user</a>
           </div>
 
           <a href="https://www.meetup.com/Belgium-Python-Meetup-Group/" target="_blank" rel="noopener" class="link-card">
-            <div class="link-icon link-icon-py" style="margin-bottom:.75rem;">Py</div>
+            <div class="link-icon link-icon-logo" style="margin-bottom:.75rem;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" />
+            </div>
             <h3>Python Belgium</h3>
             <p data-i18n="links.pybe.desc">Communauté belge des développeurs et scientifiques Python. Meetups réguliers, avec un fort intérêt pour les outils géospatiaux (GeoPandas, Shapely, etc.).</p>
             <span class="link-url">meetup.com/Belgium-Python-Meetup-Group</span>
           </a>
 
-          <a href="https://www.meetup.com/RBelgium/" target="_blank" rel="noopener" class="link-card">
-            <div class="link-icon link-icon-r" style="margin-bottom:.75rem;">R</div>
-            <h3>R Belgium</h3>
+          <a href="https://stat.ethz.ch/mailman/listinfo/r-sig-geo" target="_blank" rel="noopener" class="link-card">
+            <div class="link-icon link-icon-logo" style="margin-bottom:.75rem;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R" />
+            </div>
+            <h3>R-sig-geo</h3>
             <p data-i18n="links.rbe.desc">Communauté belge des utilisateurs du langage R. Intérêt partagé pour l'analyse spatiale et la visualisation de données géographiques (sf, terra, ggplot2).</p>
-            <span class="link-url">meetup.com/RBelgium</span>
-          </a>
-
-          <a href="https://www.meetup.com/Open-Knowledge-Belgium/" target="_blank" rel="noopener" class="link-card">
-            <div class="link-icon link-icon-ok" style="margin-bottom:.75rem;">OK</div>
-            <h3>Open Knowledge Belgium</h3>
-            <p data-i18n="links.okbe.desc">Chapitre belge d'Open Knowledge. Promotion des données ouvertes, transparence et réutilisation des données publiques, dont les données géographiques.</p>
-            <span class="link-url">meetup.com/Open-Knowledge-Belgium</span>
+            <span class="link-url">stat.ethz.ch/mailman/listinfo/r-sig-geo</span>
           </a>
 
           <a href="https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Mapping_parties" target="_blank" rel="noopener" class="link-card">
-            <div class="link-icon link-icon-osm" style="margin-bottom:.75rem;">MP</div>
+            <div class="link-icon link-icon-logo" style="margin-bottom:.75rem;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Openstreetmap_logo.svg" alt="OpenStreetMap" />
+            </div>
             <h3>Mapping Parties BE</h3>
             <p data-i18n="links.mp.desc">Cartoparties et événements de cartographie collaborative en Belgique, organisés par la communauté OSM. Ouvertes à tous les niveaux.</p>
             <span class="link-url">wiki.openstreetmap.org/wiki/WikiProject_Belgium</span>
@@ -164,7 +162,9 @@
 
           <a href="https://www.osgeo.fr/" target="_blank" rel="noopener" class="link-card">
             <div class="link-card-header">
-              <div class="link-icon link-icon-osgeo">OF</div>
+              <div class="link-icon-wide">
+                <img src="https://www.osgeo.org/wp-content/uploads/osgeo-fr-370x105.png" alt="OSGeo France" />
+              </div>
               <span class="link-tag link-tag-green" data-i18n="links.tag.osgeo">OSGeo</span>
             </div>
             <h3>OSGeo France</h3>
@@ -174,7 +174,9 @@
 
           <a href="https://www.osgeo.nl/" target="_blank" rel="noopener" class="link-card">
             <div class="link-card-header">
-              <div class="link-icon link-icon-osgeo">ON</div>
+              <div class="link-icon-wide">
+                <img src="https://osgeo.nl/photos/2017/09/osgeonl-logo-263x70.png" alt="OSGeo Netherlands" />
+              </div>
               <span class="link-tag link-tag-green" data-i18n="links.tag.osgeo">OSGeo</span>
             </div>
             <h3>OSGeo Netherlands</h3>
@@ -184,7 +186,9 @@
 
           <a href="https://www.osgeo.org/" target="_blank" rel="noopener" class="link-card">
             <div class="link-card-header">
-              <div class="link-icon link-icon-osgeo">OSG</div>
+              <div class="link-icon-wide">
+                <img src="https://www.osgeo.org/wp-content/themes/roots/assets/img/logo-osgeo.svg" alt="OSGeo" />
+              </div>
               <span class="link-tag link-tag-green" data-i18n="links.tag.osgeo">OSGeo</span>
             </div>
             <h3>OSGeo Global</h3>
@@ -195,122 +199,14 @@
         </div>
       </div>
 
-      <!-- ── 4. LOGICIELS LIBRES GÉOSPATIAUX ── -->
+      <!-- ── 4. RESSOURCES ── -->
       <div class="links-section">
         <div class="links-section-header">
-          <span class="section-eyebrow" data-i18n="links.cat.software">Logiciels</span>
-          <h2 class="section-title" data-i18n="links.cat.software.title">Projets libres géospatiaux</h2>
+          <span class="section-eyebrow" data-i18n="links.cat.resources">Ressources</span>
+          <h2 class="section-title" data-i18n="links.cat.resources.title">Logiciels, données &amp; prestataires</h2>
+          <p class="section-sub" data-i18n="links.cat.resources.sub">Retrouvez la liste des projets OSGeo, des portails de données ouvertes belges, et des prestataires actifs dans le géospatial libre.</p>
         </div>
-        <div class="links-grid links-grid-4">
-
-          <a href="https://qgis.org/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-qgis" style="margin-bottom:.75rem;">Q</div>
-            <h3>QGIS</h3>
-            <p data-i18n="links.qgis.desc">SIG bureau libre et open source. Le plus populaire des projets OSGeo.</p>
-            <span class="link-url">qgis.org</span>
-          </a>
-
-          <a href="https://postgis.net/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-pg" style="margin-bottom:.75rem;">PG</div>
-            <h3>PostGIS</h3>
-            <p data-i18n="links.postgis.desc">Extension géospatiale pour PostgreSQL. Base de données spatiale de référence.</p>
-            <span class="link-url">postgis.net</span>
-          </a>
-
-          <a href="https://geoserver.org/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-geo" style="margin-bottom:.75rem;">GS</div>
-            <h3>GeoServer</h3>
-            <p data-i18n="links.geoserver.desc">Serveur cartographique open source pour la publication de données géospatiales.</p>
-            <span class="link-url">geoserver.org</span>
-          </a>
-
-          <a href="https://grass.osgeo.org/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-grass" style="margin-bottom:.75rem;">GR</div>
-            <h3>GRASS GIS</h3>
-            <p data-i18n="links.grass.desc">Système d'information géographique libre et puissant pour l'analyse raster et vectorielle.</p>
-            <span class="link-url">grass.osgeo.org</span>
-          </a>
-
-          <a href="https://maplibre.org/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-map" style="margin-bottom:.75rem;">ML</div>
-            <h3>MapLibre</h3>
-            <p data-i18n="links.maplibre.desc">Bibliothèque JavaScript open source pour les cartes vectorielles interactives.</p>
-            <span class="link-url">maplibre.org</span>
-          </a>
-
-          <a href="https://leafletjs.com/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-map" style="margin-bottom:.75rem;">L</div>
-            <h3>Leaflet</h3>
-            <p data-i18n="links.leaflet.desc">La bibliothèque JavaScript légère de référence pour les cartes web interactives.</p>
-            <span class="link-url">leafletjs.com</span>
-          </a>
-
-          <a href="https://openlayers.org/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-map" style="margin-bottom:.75rem;">OL</div>
-            <h3>OpenLayers</h3>
-            <p data-i18n="links.ol.desc">Bibliothèque JavaScript complète pour les applications cartographiques web avancées.</p>
-            <span class="link-url">openlayers.org</span>
-          </a>
-
-          <a href="https://gdal.org/" target="_blank" rel="noopener" class="link-card link-card-sm">
-            <div class="link-icon link-icon-geo" style="margin-bottom:.75rem;">GD</div>
-            <h3>GDAL / OGR</h3>
-            <p data-i18n="links.gdal.desc">Bibliothèque de traduction pour les formats de données raster et vectorielles géospatiaux.</p>
-            <span class="link-url">gdal.org</span>
-          </a>
-
-        </div>
-      </div>
-
-      <!-- ── 5. DONNÉES OUVERTES ── -->
-      <div class="links-section">
-        <div class="links-section-header">
-          <span class="section-eyebrow" data-i18n="links.cat.data">Données</span>
-          <h2 class="section-title" data-i18n="links.cat.data.title">Données géographiques &amp; ouvertes</h2>
-        </div>
-        <div class="links-grid">
-
-          <a href="https://data.gov.be/fr" target="_blank" rel="noopener" class="link-card">
-            <div class="link-card-header">
-              <div class="link-icon link-icon-be">DGV</div>
-              <span class="link-tag" data-i18n="links.tag.data">Données</span>
-            </div>
-            <h3>data.gov.be</h3>
-            <p data-i18n="links.datagovbe.desc">Portail officiel belge des données ouvertes. Accès à des milliers de jeux de données publics issus des administrations fédérales et régionales, dont de nombreuses données géographiques.</p>
-            <span class="link-url">data.gov.be</span>
-          </a>
-
-          <a href="https://www.ngi.be/" target="_blank" rel="noopener" class="link-card">
-            <div class="link-card-header">
-              <div class="link-icon link-icon-be">NGI</div>
-              <span class="link-tag" data-i18n="links.tag.data">Données</span>
-            </div>
-            <h3>NGI — Institut Géographique National</h3>
-            <p data-i18n="links.ngi.desc">L'Institut Géographique National belge. Fournit les données topographiques et cartographiques officielles de Belgique.</p>
-            <span class="link-url">ngi.be</span>
-          </a>
-
-          <a href="https://www.geo.be/" target="_blank" rel="noopener" class="link-card">
-            <div class="link-card-header">
-              <div class="link-icon link-icon-geo">GB</div>
-              <span class="link-tag" data-i18n="links.tag.data">Données</span>
-            </div>
-            <h3>geo.be</h3>
-            <p data-i18n="links.geobe.desc">Portail fédéral belge des données géographiques. Accès aux données ouvertes cartographiques officielles.</p>
-            <span class="link-url">geo.be</span>
-          </a>
-
-          <a href="https://opendata.brussels.be/" target="_blank" rel="noopener" class="link-card">
-            <div class="link-card-header">
-              <div class="link-icon link-icon-map">BXL</div>
-              <span class="link-tag" data-i18n="links.tag.data">Données</span>
-            </div>
-            <h3>Open Data Bruxelles</h3>
-            <p data-i18n="links.bxlopendata.desc">Portail des données ouvertes de la Région de Bruxelles-Capitale, incluant de nombreux jeux de données géographiques.</p>
-            <span class="link-url">opendata.brussels.be</span>
-          </a>
-
-        </div>
+        <a href="resources.html" class="btn btn-primary" data-i18n="links.cat.resources.cta">Voir les ressources →</a>
       </div>
 
     </div>
@@ -346,6 +242,7 @@
             <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
             <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
             <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
+            <li><a href="resources.html" data-i18n="nav.resources">Ressources</a></li>
             <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
           </ul>
         </div>
@@ -365,17 +262,25 @@
             <li><a href="https://twitter.com/osgeobe" target="_blank" rel="noopener">Twitter / X</a></li>
             <li><a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener">Matrix</a></li>
             <li><a href="https://t.me/osgeobelgium" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://be.linkedin.com/company/osgeo-be" target="_blank" rel="noopener">LinkedIn</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
         <p>© 2025 OSGeo Belgium — BE 0641.662.720 — IBAN BE78 5230 8075 3686 (Triodos)</p>
+        <p style="font-size:.75rem;margin-top:.25rem;">
+          <a href="coc.html" data-i18n="footer.coc">Code de conduite</a> ·
+          <span data-i18n="footer.license">Contenu sous licence CC-BY 3.0</span> ·
+          <a href="https://github.com/OSGeo-be" target="_blank" rel="noopener" data-i18n="footer.feedback">Feedback sur GitHub</a>
+        </p>
         <div class="footer-social">
           <a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener" title="Mastodon">M</a>
           <a href="https://twitter.com/osgeobe" target="_blank" rel="noopener" title="Twitter">X</a>
           <a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener" title="Matrix">[m]</a>
           <a href="https://t.me/osgeobelgium" target="_blank" rel="noopener" title="Telegram">tg</a>
           <a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener" title="Facebook">fb</a>
+          <a href="https://be.linkedin.com/company/osgeo-be" target="_blank" rel="noopener" title="LinkedIn">in</a>
         </div>
       </div>
     </div>

@@ -314,6 +314,9 @@ img, svg { display: block; }
 }
 .foss4g-year-card:hover { border-color: var(--green); box-shadow: var(--shadow); transform: translateY(-2px); text-decoration: none; }
 .foss4g-year-card.foss4g-current { border-color: var(--green); background: var(--green-pale); }
+.foss4g-year-card.foss4g-upcoming { border-color: #e07b00; background: #fff8f0; }
+.foss4g-year-card.foss4g-upcoming .fy-year { color: #b35c00; }
+.foss4g-year-card.foss4g-upcoming .fy-badge { background: #e07b00; }
 .fy-year { font-size: 1.1rem; font-weight: 700; color: var(--green-dark); line-height: 1; }
 .fy-label { font-size: .72rem; color: var(--text-muted); margin-top: .2rem; }
 .fy-badge {
@@ -420,6 +423,7 @@ img, svg { display: block; }
   margin-bottom: .4rem;
 }
 .event-tag.tag-blue { background: var(--blue-pale); color: var(--blue); }
+.event-tag.tag-orange { background: #fff0e0; color: #b35c00; }
 
 /* === PILLARS === */
 .pillar {
@@ -474,6 +478,31 @@ img, svg { display: block; }
 .board-card.president .avatar { background: var(--green); }
 .board-card h3 { font-size: .9rem; font-weight: 600; }
 .board-card .role { font-size: .78rem; color: var(--green-dark); font-weight: 500; }
+
+/* === FOUNDERS PHOTO === */
+.founders-photo {
+  margin-top: 2rem;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+.founders-photo img {
+  width: 100%;
+  display: block;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: center 60%;
+}
+.founders-photo figcaption {
+  background: var(--green-dark);
+  color: rgba(255,255,255,.85);
+  font-size: .8rem;
+  padding: .6rem 1rem;
+  text-align: center;
+  font-style: italic;
+}
+.founders-photo figcaption em { color: #fff; font-style: italic; }
 
 /* === SOCIAL LINKS === */
 .social-grid { display: flex; flex-wrap: wrap; gap: .75rem; }
@@ -693,6 +722,10 @@ img, svg { display: block; }
 .link-icon-r      { background: #276dc3; }
 .link-icon-ok     { background: #d4272a; }
 .link-icon-add    { background: var(--green); }
+.link-icon-logo   { background: #fff; border: 1px solid #e5eae5; padding: 5px; }
+.link-icon-logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.link-icon-wide   { width: 110px; height: 36px; background: #fff; border: 1px solid #e5eae5; border-radius: var(--radius); padding: 4px; display: flex; align-items: center; justify-content: center; }
+.link-icon-wide img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
 
 .links-section        { margin-bottom: 3rem; }
 .links-section-header { margin-bottom: 1.5rem; }
@@ -748,6 +781,25 @@ img, svg { display: block; }
 }
 .link-card:hover .link-url { text-decoration: underline; }
 
+/* === RESOURCE PILLS === */
+.res-pill {
+  display: inline-block;
+  padding: .25rem .6rem;
+  background: var(--green-pale);
+  color: var(--green-dark);
+  border: 1px solid #b8e0c0;
+  border-radius: 9999px;
+  font-size: .78rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background var(--t), color var(--t);
+}
+.res-pill:hover {
+  background: var(--green);
+  color: #fff;
+  text-decoration: none;
+}
+
 /* === UTILS === */
 .text-muted { color: var(--text-muted); }
 .text-green { color: var(--green); }
@@ -773,7 +825,7 @@ img, svg { display: block; }
 @media (max-width: 800px) {
   .contact-layout { grid-template-columns: 1fr !important; }
 }
-@media (max-width: 700px) {
+@media (max-width: 960px) {
   .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--green-dark); flex-direction: column; align-items: flex-start; padding: .5rem 0; border-bottom: 1px solid rgba(255,255,255,.1); box-shadow: var(--shadow); gap: 0; }
   .nav-links.open { display: flex; }
   .nav-links a { padding: .75rem 1.5rem; width: 100%; border-radius: 0; }
@@ -782,6 +834,8 @@ img, svg { display: block; }
   .site-header { position: relative; }
   .nav { position: relative; }
   .lang-switcher { margin-left: 0; padding-left: .5rem; border-left: none; }
+}
+@media (max-width: 700px) {
   .hero-logo-badge { display: none; }
   .foss4g-years-grid { gap: .5rem; }
   .foss4g-year-card { min-width: 75px; padding: .65rem .9rem; }
