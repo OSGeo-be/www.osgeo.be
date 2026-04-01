@@ -234,7 +234,7 @@ const TRANSLATIONS = {
     "footer.feedback":  "Feedback sur GitHub",
 
     // FOOTER
-    "footer.brand.text":  "Chapitre local belge de l'Open Source Geospatial Foundation. Association sans but lucratif fondée en 2013.",
+    "footer.brand.text":  "Chapitre local belge de l'Open Source Geospatial Foundation. Association sans but lucratif imaginée dès 2013.",
     "footer.nav":         "Navigation",
     "footer.resources":   "Ressources",
     "footer.follow":      "Suivez-nous",
@@ -478,7 +478,7 @@ const TRANSLATIONS = {
     "footer.license":   "Inhoud onder CC-BY 3.0 licentie",
     "footer.feedback":  "Feedback op GitHub",
 
-    "footer.brand.text":  "Belgisch lokaal hoofdstuk van de Open Source Geospatial Foundation. Vereniging zonder winstoogmerk opgericht in 2013.",
+    "footer.brand.text":  "Belgisch lokaal hoofdstuk van de Open Source Geospatial Foundation. Vereniging zonder winstoogmerk gedroomd in 2013.",
     "footer.nav":         "Navigatie",
     "footer.resources":   "Bronnen",
     "footer.follow":      "Volg ons",
@@ -720,7 +720,7 @@ const TRANSLATIONS = {
     "footer.license":   "Content licensed under CC-BY 3.0",
     "footer.feedback":  "Feedback on GitHub",
 
-    "footer.brand.text":  "Belgian local chapter of the Open Source Geospatial Foundation. Non-profit association founded in 2013.",
+    "footer.brand.text":  "Belgian local chapter of the Open Source Geospatial Foundation. Non-profit association dreamed up in 2013.",
     "footer.nav":         "Navigation",
     "footer.resources":   "Resources",
     "footer.follow":      "Follow us",
