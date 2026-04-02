@@ -6,6 +6,8 @@ const TRANSLATIONS = {
     "nav.ag":      "AG & PV",
     "nav.contact": "Contact",
     "nav.join":    "Rejoindre",
+    "nav.gallery": "Galerie",
+    "nav.coc":     "Code de conduite",
 
     // HERO
     "hero.eyebrow":  "Chapitre local OSGeo",
@@ -240,6 +242,16 @@ const TRANSLATIONS = {
     "footer.follow":      "Suivez-nous",
     "footer.statutes":    "Statuts officiels",
 
+    // GALLERY
+    "gallery.eyebrow":      "Souvenirs",
+    "gallery.title":        "Galerie photos FOSS4G Belgium",
+    "gallery.sub":          "Retrouvez les photos des conférences et événements OSGeo Belgium au fil des années.",
+    "gallery.wip":          "Album en cours de constitution — contactez-nous si vous avez des photos !",
+    "gallery.contribute":   "Vous avez des photos d'un événement OSGeo Belgium ? Partagez-les avec la communauté !",
+    "gallery.2019.desc":    "Photos de la conférence FOSS4G Belgium 2019.",
+    "gallery.2017.desc":    "Archive en cours d'extraction.",
+    "gallery.2015.desc":    "La première édition — <em>ceci n'est pas une conférence</em>.",
+
     // BREADCRUMB
     "bc.home":    "Accueil",
     "bc.events":  "Événements",
@@ -261,6 +273,8 @@ const TRANSLATIONS = {
     "nav.ag":      "AV & PV",
     "nav.contact": "Contact",
     "nav.join":    "Word lid",
+    "nav.gallery": "Galerij",
+    "nav.coc":     "Gedragscode",
 
     "hero.eyebrow":  "Lokaal OSGeo-hoofdstuk",
     "hero.title":    "Open source geo<br>in België",
@@ -484,6 +498,16 @@ const TRANSLATIONS = {
     "footer.follow":      "Volg ons",
     "footer.statutes":    "Officiële statuten",
 
+    // GALLERY (nl)
+    "gallery.eyebrow":    "Herinneringen",
+    "gallery.title":      "Fotogalerij FOSS4G Belgium",
+    "gallery.sub":        "Foto's van de conferenties en evenementen van OSGeo Belgium door de jaren heen.",
+    "gallery.wip":        "Album wordt samengesteld — contacteer ons als u foto's heeft!",
+    "gallery.contribute": "Heeft u foto's van een OSGeo Belgium evenement? Deel ze met de gemeenschap!",
+    "gallery.2019.desc":  "Foto's van de FOSS4G Belgium conferentie 2019.",
+    "gallery.2017.desc":  "Archief wordt uitgepakt.",
+    "gallery.2015.desc":  "De eerste editie — <em>ceci n'est pas une conférence</em>.",
+
     "bc.home":    "Startpagina",
     "bc.events":  "Evenementen",
     "bc.ag":      "AV & PV",
@@ -503,6 +527,8 @@ const TRANSLATIONS = {
     "nav.ag":      "GA & Minutes",
     "nav.contact": "Contact",
     "nav.join":    "Join",
+    "nav.gallery": "Gallery",
+    "nav.coc":     "Code of Conduct",
 
     "hero.eyebrow":  "Local OSGeo Chapter",
     "hero.title":    "Open source geospatial<br>in Belgium",
@@ -725,6 +751,16 @@ const TRANSLATIONS = {
     "footer.resources":   "Resources",
     "footer.follow":      "Follow us",
     "footer.statutes":    "Official statutes",
+
+    // GALLERY (en)
+    "gallery.eyebrow":    "Memories",
+    "gallery.title":      "FOSS4G Belgium Photo Gallery",
+    "gallery.sub":        "Photos from OSGeo Belgium conferences and events over the years.",
+    "gallery.wip":        "Album being compiled — contact us if you have photos!",
+    "gallery.contribute": "Do you have photos from an OSGeo Belgium event? Share them with the community!",
+    "gallery.2019.desc":  "Photos from the FOSS4G Belgium 2019 conference.",
+    "gallery.2017.desc":  "Archive being extracted.",
+    "gallery.2015.desc":  "The first edition — <em>ceci n'est pas une conférence</em>.",
 
     "bc.home":    "Home",
     "bc.events":  "Events",

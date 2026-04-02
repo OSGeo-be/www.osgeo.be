@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie photos — OSGeo Belgium</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+    .gallery-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow var(--t), transform var(--t);
+      display: flex;
+      flex-direction: column;
+    }
+    .gallery-card:hover {
+      box-shadow: var(--shadow);
+      transform: translateY(-2px);
+    }
+    .gallery-card-thumb {
+      background: var(--green-dark);
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      color: rgba(255,255,255,.4);
+      position: relative;
+      overflow: hidden;
+    }
+    .gallery-card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .gallery-card-thumb .year-label {
+      position: absolute;
+      bottom: .5rem;
+      left: .75rem;
+      background: rgba(0,0,0,.55);
+      color: #fff;
+      font-size: .75rem;
+      font-weight: 700;
+      padding: .2rem .5rem;
+      border-radius: 4px;
+      letter-spacing: .05em;
+    }
+    .gallery-card-body {
+      padding: 1rem 1.1rem 1.1rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+    }
+    .gallery-card-body h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--green-dark);
+      margin: 0;
+    }
+    .gallery-card-body p {
+      font-size: .82rem;
+      color: var(--text-muted);
+      margin: 0;
+      flex: 1;
+    }
+    .gallery-card-body .gallery-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin-top: .25rem;
+    }
+    .gallery-card-body .gallery-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      font-size: .78rem;
+      font-weight: 600;
+      color: var(--green-dark);
+      background: var(--green-pale);
+      border: 1px solid #c5e3c8;
+      border-radius: 20px;
+      padding: .25rem .7rem;
+      text-decoration: none;
+      transition: background var(--t), color var(--t);
+    }
+    .gallery-card-body .gallery-links a:hover {
+      background: var(--green-dark);
+      color: #fff;
+      border-color: var(--green-dark);
+    }
+    .gallery-card-wip {
+      border-style: dashed;
+      opacity: .65;
+    }
+    .gallery-card-wip .gallery-card-thumb {
+      background: var(--bg-alt);
+      color: var(--border-mid);
+    }
+    .gallery-contribute {
+      margin-top: 2.5rem;
+      background: var(--green-pale);
+      border: 1px solid #c5e3c8;
+      border-radius: var(--radius-lg);
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .gallery-contribute p {
+      margin: 0;
+      font-size: .88rem;
+      color: var(--text-mid);
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.svg" alt="OSGeo·BE" class="nav-logo-full" />
+      </a>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
+        <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+        <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
+        <li><a href="resources.html" data-i18n="nav.resources">Ressources</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener" class="nav-cta" data-i18n="nav.join">Rejoindre</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="nl">NL</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a href="index.html" data-i18n="bc.home">Accueil</a>
+      <span>›</span>
+      <span data-i18n="nav.gallery">Galerie</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="gallery.eyebrow">Souvenirs</p>
+      <h1 data-i18n="gallery.title">Galerie photos FOSS4G Belgium</h1>
+      <p class="hero-sub" data-i18n="gallery.sub">Retrouvez les photos des conférences et événements OSGeo Belgium au fil des années.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY GRID -->
+  <section class="section">
+    <div class="container">
+
+      <div class="gallery-grid">
+
+        <!-- 2024 -->
+        <div class="gallery-card gallery-card-wip">
+          <div class="gallery-card-thumb">
+            📷
+            <span class="year-label">2024</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3>FOSS4G Belgium 2024</h3>
+            <p data-i18n="gallery.wip">Album en cours de constitution — contactez-nous si vous avez des photos !</p>
+            <div class="gallery-links">
+              <a href="mailto:board@osgeo.be">📨 Partager des photos</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2022 -->
+        <div class="gallery-card gallery-card-wip">
+          <div class="gallery-card-thumb">
+            📷
+            <span class="year-label">2022</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3>FOSS4G Belgium 2022</h3>
+            <p data-i18n="gallery.wip">Album en cours de constitution — contactez-nous si vous avez des photos !</p>
+            <div class="gallery-links">
+              <a href="mailto:board@osgeo.be">📨 Partager des photos</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2019 -->
+        <div class="gallery-card">
+          <div class="gallery-card-thumb">
+            <img src="https://wiki.osgeo.org/w/images/3/39/FOSS4G_Belgium_2015.jpg" alt="FOSS4G Belgium 2019" style="object-position: center 40%;" />
+            <span class="year-label">2019</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3>FOSS4G Belgium 2019</h3>
+            <p data-i18n="gallery.2019.desc">Photos de la conférence FOSS4G Belgium 2019.</p>
+            <div class="gallery-links">
+              <a href="https://drive.google.com/drive/folders/12M3yZUAHr5pAKcZNjAiZqrKKHXrQmHzD" target="_blank" rel="noopener">📁 Album 1</a>
+              <a href="https://drive.google.com/drive/folders/1H1M9_MiCtProq8_7_lWHY-deyjDCxpq9" target="_blank" rel="noopener">📁 Album 2</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2018 -->
+        <div class="gallery-card gallery-card-wip">
+          <div class="gallery-card-thumb">
+            📷
+            <span class="year-label">2018</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3>FOSS4G Belgium 2018</h3>
+            <p data-i18n="gallery.wip">Album en cours de constitution — contactez-nous si vous avez des photos !</p>
+            <div class="gallery-links">
+              <a href="mailto:board@osgeo.be">📨 Partager des photos</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2017 -->
+        <div class="gallery-card gallery-card-wip">
+          <div class="gallery-card-thumb">
+            📦
+            <span class="year-label">2017</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3>FOSS4G Belgium 2017</h3>
+            <p data-i18n="gallery.2017.desc">Archive en cours d'extraction.</p>
+            <div class="gallery-links">
+              <a href="https://drive.google.com/drive/folders/0BzSDYVxB9MftZkI3TzRTM2xGVE0?resourcekey=0-OmRyyUbNvtGNc9Ii-QqLqQ" target="_blank" rel="noopener">📦 Archive ZIP</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2016 -->
+        <div class="gallery-card gallery-card-wip">
+          <div class="gallery-card-thumb">
+            📷
+            <span class="year-label">2016</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3>FOSS4G Belgium 2016</h3>
+            <p data-i18n="gallery.wip">Album en cours de constitution — contactez-nous si vous avez des photos !</p>
+            <div class="gallery-links">
+              <a href="mailto:board@osgeo.be">📨 Partager des photos</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2015 -->
+        <div class="gallery-card">
+          <div class="gallery-card-thumb">
+            <img src="https://wiki.osgeo.org/w/images/3/39/FOSS4G_Belgium_2015.jpg" alt="FOSS4G Belgium 2015" style="object-position: center 60%;" />
+            <span class="year-label">2015</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3>FOSS4G Belgium 2015</h3>
+            <p data-i18n="gallery.2015.desc">La première édition — <em>ceci n'est pas une conférence</em>.</p>
+            <div class="gallery-links">
+              <a href="https://wiki.osgeo.org/wiki/Belgium/FOSS4G_Belgium_2015" target="_blank" rel="noopener">🌐 Wiki OSGeo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CONTRIBUTE -->
+      <div class="gallery-contribute">
+        <span style="font-size:1.5rem;">📸</span>
+        <p data-i18n="gallery.contribute">Vous avez des photos d'un événement OSGeo Belgium ? Partagez-les avec la communauté !</p>
+        <a href="mailto:board@osgeo.be" class="btn btn-primary">board@osgeo.be</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="logo.svg" alt="OSGeo Belgium" style="height:36px;margin-bottom:.75rem;" />
+          <p data-i18n="footer.brand.text">Chapitre local belge de l'Open Source Geospatial Foundation. Association sans but lucratif imaginée dès 2013.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav">Navigation</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+            <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
+            <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+            <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
+            <li><a href="resources.html" data-i18n="nav.resources">Ressources</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.resources">Ressources</h4>
+          <ul>
+            <li><a href="gallery.html" data-i18n="nav.gallery">Galerie photos</a></li>
+            <li><a href="coc.html" data-i18n="nav.coc">Code de conduite</a></li>
+            <li><a href="https://wiki.osgeo.org/wiki/Belgium" target="_blank" rel="noopener">Wiki OSGeo</a></li>
+            <li><a href="https://www.foss4g.be" target="_blank" rel="noopener">FOSS4G.be</a></li>
+            <li><a href="https://www.osgeo.org" target="_blank" rel="noopener">OSGeo Global</a></li>
+            <li><a href="http://www.ejustice.just.fgov.be/tsv_pdf/2015/10/21/15317365.pdf" target="_blank" rel="noopener" data-i18n="footer.statutes">Statuts officiels</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.follow">Suivez-nous</h4>
+          <ul>
+            <li><a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener">Mastodon</a></li>
+            <li><a href="https://twitter.com/osgeobe" target="_blank" rel="noopener">Twitter / X</a></li>
+            <li><a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener">Matrix</a></li>
+            <li><a href="https://t.me/osgeobelgium" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://be.linkedin.com/company/osgeo-be" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 OSGeo Belgium — BE 0641.662.720 — IBAN BE78 5230 8075 3686 (Triodos)</p>
+        <p style="font-size:.75rem;margin-top:.25rem;">
+          <a href="coc.html" data-i18n="footer.coc">Code de conduite</a> ·
+          <span data-i18n="footer.license">Contenu sous licence CC-BY 3.0</span> ·
+          <a href="https://github.com/OSGeo-be" target="_blank" rel="noopener" data-i18n="footer.feedback">Feedback sur GitHub</a>
+        </p>
+        <div class="footer-social">
+          <a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener" title="Mastodon">M</a>
+          <a href="https://twitter.com/osgeobe" target="_blank" rel="noopener" title="Twitter">X</a>
+          <a href="https://matrix.to/#/#osgeo-be:matrix.org" target="_blank" rel="noopener" title="Matrix">[m]</a>
+          <a href="https://t.me/osgeobelgium" target="_blank" rel="noopener" title="Telegram">tg</a>
+          <a href="https://www.facebook.com/people/Foss4g-Belgium/100068093147" target="_blank" rel="noopener" title="Facebook">fb</a>
+          <a href="https://be.linkedin.com/company/osgeo-be" target="_blank" rel="noopener" title="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
