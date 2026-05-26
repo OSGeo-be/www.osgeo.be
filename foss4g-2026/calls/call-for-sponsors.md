@@ -1,15 +1,54 @@
 # Call for Sponsors — FOSS4G Belgium 2026
 
-> **Statut :** 🔴 Pas encore ouvert  
-> **Ouverture prévue :** 15 juin 2026  
-> **Date limite :** 1 septembre 2026  
-> **Contact :** [board@osgeo.be](mailto:board@osgeo.be)
+> **Status:** 🔴 Not yet open  
+> **Expected opening:** 15 June 2026  
+> **Deadline:** 1 September 2026  
+> **Contact:** [board@osgeo.be](mailto:board@osgeo.be)
 
 ---
 
-## Message à envoyer (mailing list / email direct)
+## Message to send
 
-> _Copier-coller et adapter selon le canal_
+---
+
+**[EN]**
+
+Dear all,
+
+**FOSS4G Belgium is back on 15 October 2026 in Brussels!**
+
+The annual Belgian conference on open-source geospatial software brings together hundreds of developers, GIS professionals, researchers and decision-makers from the public and private sector.
+
+We are looking for **sponsors** to support the event.
+
+### Why sponsor FOSS4G Belgium?
+
+- Visibility with an engaged technical community
+- Audience: developers, geospatial professionals, open data advocates
+- Non-profit event run by OSGeo Belgium (ASBL/VZW)
+- Lasting reach: slides and videos available online after the event
+
+### Sponsorship tiers
+
+| Tier | Suggested amount | Benefits |
+|------|-----------------|----------|
+| 🥇 Gold | €1,500 | Banner logo, stand, 3 free entries, mention in all communications |
+| 🥈 Silver | €750 | Logo in programme, 2 free entries, social media mention |
+| 🥉 Bronze | €300 | Logo on website and programme, 1 free entry |
+| 💛 Community | €150 | Website mention (associations, small organisations) |
+
+_Amounts are indicative and negotiable. In-kind sponsorship (venue, catering, printing…) is also welcome._
+
+> **Note:** In accordance with the venue's conditions, no admission fee is charged for the conference. All financial support goes exclusively through organisational sponsorship.
+
+### How to become a sponsor?
+
+Reply to this email or write to [board@osgeo.be](mailto:board@osgeo.be).  
+Full sponsorship brochure available on request.
+
+Best regards,  
+_The FOSS4G Belgium 2026 team_  
+[www.osgeo.be](https://www.osgeo.be)
 
 ---
 
@@ -19,62 +58,31 @@ Bonjour,
 
 FOSS4G Belgium revient le **15 octobre 2026 à Bruxelles** !
 
-La conférence annuelle belge des logiciels libres géospatiaux rassemble chaque année des centaines de professionnels, chercheurs et passionnés de la géomatique open source.
-
 Nous recherchons des **sponsors** pour soutenir l'événement.
-
-### Pourquoi sponsoriser FOSS4G Belgium ?
-
-- Visibilité auprès d'une communauté technique engagée
-- Audience : développeurs, géomaticiens, décideurs du secteur public et privé
-- Événement sans but lucratif porté par OSGeo Belgium (ASBL)
-- Retombées durables : slides et vidéos disponibles en ligne après l'événement
-
-### Niveaux de sponsoring
-
-| Niveau | Montant suggéré | Avantages |
-|--------|----------------|-----------|
-| 🥇 Gold | 1 500 € | Logo bannière, stand, 3 entrées gratuites, mention dans toutes les comms |
-| 🥈 Silver | 750 € | Logo programme, 2 entrées gratuites, mention réseaux sociaux |
-| 🥉 Bronze | 300 € | Logo sur site et programme, 1 entrée gratuite |
-| 💛 Community | 150 € | Mention sur site (associations, petites structures) |
-
-_Les montants sont indicatifs et négociables. Un sponsoring en nature (lieu, catering, impression…) est également possible._
-
-### Comment devenir sponsor ?
-
-Répondez à cet email ou écrivez à [board@osgeo.be](mailto:board@osgeo.be).  
-Dossier de sponsoring complet disponible sur demande.
-
-À très bientôt,  
-_L'équipe FOSS4G Belgium 2026_  
-[www.osgeo.be](https://www.osgeo.be)
+Contactez-nous : [board@osgeo.be](mailto:board@osgeo.be)
 
 ---
 
-**[EN]**
+**[NL]**
 
-Dear all,
+Beste leden,
 
-**FOSS4G Belgium is back on October 15, 2026 in Brussels!**
+FOSS4G Belgium is terug op **15 oktober 2026 in Brussel** !
 
-We are looking for sponsors to support the Belgian open-source geospatial conference.
-
-Please find our sponsorship offer above (French version) or contact us at [board@osgeo.be](mailto:board@osgeo.be) for the English sponsorship brochure.
+We zijn op zoek naar **sponsors**. Neem contact op via [board@osgeo.be](mailto:board@osgeo.be)
 
 ---
 
-## Canaux de diffusion
+## Channels checklist
 
-| Canal | Fait ? | Date prévue | Lien / compte |
-|-------|--------|-------------|---------------|
-| Mailing list `belgium@lists.osgeo.org` | ☐ | 15 juin 2026 | [lien](https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium) |
-| Matrix `#osgeo-be:matrix.org` | ☐ | 15 juin 2026 | [lien](https://matrix.to/#/#osgeo-be:matrix.org) |
-| Mastodon `@osgeobe@fosstodon.org` | ☐ | 15 juin 2026 | [lien](https://fosstodon.org/@osgeobe) |
-| LinkedIn `/company/osgeo-be` | ☐ | 15 juin 2026 | [lien](https://be.linkedin.com/company/osgeo-be) |
-| Twitter/X `@osgeobe` | ☐ | 15 juin 2026 | [lien](https://twitter.com/osgeobe) |
-| Facebook | ☐ | 15 juin 2026 | [lien](https://www.facebook.com/people/Foss4g-Belgium/100068093147) |
-| Telegram `@osgeobelgium` | ☐ | 15 juin 2026 | [lien](https://t.me/osgeobelgium) |
-| Email direct prospects 2022–2025 | ☐ | 20 juin 2026 | voir Drive sponsors |
-
-> **Relance :** à planifier 3–4 semaines après l'envoi initial si pas de réponse.
+| Channel | Done? | Planned date |
+|---------|-------|-------------|
+| Mailing list `belgium@lists.osgeo.org` | ☐ | 15 June 2026 |
+| Matrix `#osgeo-be:matrix.org` | ☐ | 15 June 2026 |
+| Mastodon `@osgeobe@fosstodon.org` | ☐ | 15 June 2026 |
+| LinkedIn `/company/osgeo-be` | ☐ | 15 June 2026 |
+| Twitter/X `@osgeobe` | ☐ | 15 June 2026 |
+| Facebook | ☐ | 15 June 2026 |
+| Telegram `@osgeobelgium` | ☐ | 15 June 2026 |
+| Direct email to 2022–2025 prospects | ☐ | 20 June 2026 |
+| **Follow-up** (4 weeks later) | ☐ | 15 July 2026 |

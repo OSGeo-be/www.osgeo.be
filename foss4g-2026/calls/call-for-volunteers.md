@@ -1,55 +1,14 @@
 # Call for Volunteers — FOSS4G Belgium 2026
 
-> **Statut :** 🔴 Pas encore ouvert  
-> **Ouverture prévue :** 7 juillet 2026  
-> **Date limite :** 1 octobre 2026  
-> **Briefing bénévoles :** 10 octobre 2026 (en ligne)  
-> **Contact :** [board@osgeo.be](mailto:board@osgeo.be)
+> **Status:** 🔴 Not yet open  
+> **Expected opening:** 7 July 2026  
+> **Deadline:** 1 October 2026  
+> **Volunteer briefing:** 10 October 2026 (online)  
+> **Contact:** [board@osgeo.be](mailto:board@osgeo.be)
 
 ---
 
-## Message à envoyer
-
----
-
-**[FR]**
-
-Chers membres, chères membres,
-
-FOSS4G Belgium 2026 aura lieu le **15 octobre 2026 à Bruxelles** et nous avons besoin de vous !
-
-### Pourquoi devenir bénévole ?
-
-- Participer activement à la communauté open-source géospatiale belge
-- Entrée gratuite à la conférence
-- T-shirt bénévole
-- Accès aux coulisses de l'organisation
-- Rencontrer les intervenants et participants
-
-### Rôles disponibles
-
-| Rôle | Nb. souhaité | Description |
-|------|-------------|-------------|
-| Accueil & enregistrement | 3 | Accueillir les participants, remettre les badges |
-| Aide en salle | 4–6 | Micro lors des Q&A, vérifier timing |
-| Technique A/V | 2 | Gérer son et projection |
-| Communication live | 1–2 | Live-posts sur réseaux sociaux pendant l'événement |
-| Maps / exposition | 2 | Installer et surveiller l'exposition cartes |
-| Coordination générale | 1–2 | Support aux responsables de groupe |
-
-**Engagement demandé :** journée complète le 15 octobre + briefing en ligne le 10 octobre (1h)
-
-### Comment s'inscrire ?
-
-Répondez à cet email en indiquant :
-1. Votre nom et prénom
-2. Le(s) rôle(s) souhaité(s)
-3. Votre disponibilité (journée complète / matin seulement / après-midi seulement)
-
-Ou inscrivez-vous directement via : **[Lien formulaire — à compléter]**
-
-Merci d'avance !  
-_L'équipe FOSS4G Belgium 2026_
+## Message to send
 
 ---
 
@@ -59,25 +18,67 @@ Dear all,
 
 **FOSS4G Belgium 2026 needs volunteers!**
 
-📅 October 15, 2026 · Brussels  
-Free entry + volunteer t-shirt in exchange for your help.
+📅 15 October 2026 · Brussels, Belgium
 
-Available roles: registration desk, room assistant, A/V support, live comms, maps exhibition.
+### What you get
 
-Apply at: **[Form link — to complete]** or reply to this email.
+- Free entry to the conference
+- Volunteer t-shirt
+- Behind-the-scenes access
+- Meet speakers and participants
+- Actively contribute to the Belgian open-source geospatial community
+
+### Available roles
+
+| Role | Number | Description |
+|------|--------|-------------|
+| 🪪 Registration desk | 3 | Welcome attendees, hand out badges |
+| 🎙️ Room assistant | 4–6 | Hold the mic during Q&A, keep time for speakers |
+| 🎥 A/V technician | 2 | Manage sound, projection and optional streaming |
+| 📱 Live comms | 1–2 | Real-time social media posts during the event |
+| 🗺️ Maps exhibition | 2 | Set up and supervise the maps display |
+| 🔧 General support | 1–2 | Support group leads, solve problems |
+
+**Commitment:** Full day on 15 October + online briefing on 10 October (~1 hour)
+
+### How to sign up?
+
+Reply to this email with:
+1. Your name
+2. Preferred role(s)
+3. Availability (full day / morning only / afternoon only)
+
+Or register directly: **[Form link — to complete]**
+
+Thank you!  
+_The FOSS4G Belgium 2026 team_
 
 ---
 
-## Canaux de diffusion
+**[FR]**
 
-| Canal | Fait ? | Date prévue |
-|-------|--------|-------------|
-| Mailing list | ☐ | 7 juil. 2026 |
-| Matrix | ☐ | 7 juil. 2026 |
-| Mastodon | ☐ | 7 juil. 2026 |
-| LinkedIn | ☐ | 7 juil. 2026 |
-| Twitter/X | ☐ | 7 juil. 2026 |
-| Facebook | ☐ | 7 juil. 2026 |
-| Telegram | ☐ | 7 juil. 2026 |
-| **Relance** (1 sept.) | ☐ | 1 sept. 2026 | "Places encore disponibles" |
-| **Clôture** (1 oct.) | ☐ | 1 oct. 2026 | "Inscriptions closes" |
+FOSS4G Belgium 2026 a besoin de bénévoles ! Entrée gratuite + t-shirt.  
+Inscrivez-vous : **[lien formulaire — à compléter]** ou répondez à cet email.
+
+---
+
+**[NL]**
+
+FOSS4G Belgium 2026 zoekt vrijwilligers! Gratis toegang + t-shirt.  
+Inschrijven: **[formulierlink — in te vullen]** of antwoord op deze e-mail.
+
+---
+
+## Channels checklist
+
+| Channel | Done? | Planned date |
+|---------|-------|-------------|
+| Mailing list | ☐ | 7 July 2026 |
+| Matrix | ☐ | 7 July 2026 |
+| Mastodon | ☐ | 7 July 2026 |
+| LinkedIn | ☐ | 7 July 2026 |
+| Twitter/X | ☐ | 7 July 2026 |
+| Facebook | ☐ | 7 July 2026 |
+| Telegram | ☐ | 7 July 2026 |
+| **Reminder** (1 Sept.) | ☐ | 1 September 2026 |
+| **Closed** (1 Oct.) | ☐ | 1 October 2026 |

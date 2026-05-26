@@ -11,6 +11,7 @@
   <title>FOSS4G Belgium 2026</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
+  <link rel="stylesheet" href="leaflet.css" />
 </head>
 <body>
 
@@ -85,6 +86,45 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ═══ LIEU ═══ -->
+  <section class="section" id="venue">
+    <div class="container">
+      <div class="section-header section-header-center">
+        <p class="section-eyebrow" data-i18n="foss4g26.venue.eyebrow">Lieu</p>
+        <h2 class="section-title" data-i18n="foss4g26.venue.title">Tour &amp; Taxis · Bruxelles</h2>
+        <p class="section-sub" data-i18n="foss4g26.venue.sub">Bruxelles Environnement — Avenue du Port 86C, 1000 Bruxelles</p>
+      </div>
+
+      <div class="f26-map-frame">
+        <div id="f26-map"></div>
+
+        <!-- Légende cartographique -->
+        <div class="f26-map-legend">
+          <p class="f26-map-legend-title" data-i18n="foss4g26.venue.legend.title">Bruxelles Environnement</p>
+          <p class="f26-map-legend-addr">Av. du Port 86C<br>1000 Bruxelles</p>
+          <a href="https://bel.brussels/fr" target="_blank" rel="noopener" class="f26-map-legend-link">bel.brussels →</a>
+          <hr class="f26-map-legend-sep" />
+          <ul class="f26-map-legend-transport">
+            <li>🚇 <span data-i18n="foss4g26.venue.metro">Métro Ribaucourt (L2)</span></li>
+            <li>🚋 <span data-i18n="foss4g26.venue.tram">Tram 51 — Tour &amp; Taxis</span></li>
+            <li>🚲 <span data-i18n="foss4g26.venue.velo">Villo! · parking vélo</span></li>
+          </ul>
+        </div>
+
+        <!-- Flèche nord -->
+        <div class="f26-map-north" aria-hidden="true">
+          <span class="f26-map-north-arrow">↑</span>
+          <span class="f26-map-north-label">N</span>
+        </div>
+      </div>
+
+      <p class="f26-map-credit">
+        <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a> contributors ·
+        <a href="https://carto.com/attributions" target="_blank" rel="noopener">© CARTO</a>
+      </p>
     </div>
   </section>
 
@@ -403,5 +443,45 @@
 
   <script src="i18n.js"></script>
   <script src="main.js"></script>
+  <script src="leaflet.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      var mapEl = document.getElementById('f26-map');
+      if (!mapEl || typeof L === 'undefined') return;
+
+      var map = L.map('f26-map', {
+        center: [50.8638, 4.3390],
+        zoom: window.innerWidth < 600 ? 14 : 15,
+        zoomControl: true,
+        scrollWheelZoom: false,
+        attributionControl: false
+      });
+
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        subdomains: 'abcd',
+        maxZoom: 20
+      }).addTo(map);
+
+      var pin = L.divIcon({
+        html: '<div class="f26-pin"><div class="f26-pin-dot"></div></div>',
+        className: '',
+        iconSize:   [28, 28],
+        iconAnchor: [14, 14],
+        popupAnchor:[0, -16]
+      });
+
+      L.marker([50.8638, 4.3390], { icon: pin })
+        .addTo(map)
+        .bindPopup(
+          '<strong>FOSS4G Belgium 2026</strong><br>' +
+          'Bruxelles Environnement<br>' +
+          '<span style="color:#6b7280;font-size:.85em;">Tour &amp; Taxis · 15 oct. 2026</span>',
+          { maxWidth: 200, closeButton: false }
+        )
+        .openPopup();
+
+      map.invalidateSize();
+    });
+  </script>
 </body>
 </html>

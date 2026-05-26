@@ -1,106 +1,101 @@
-# Calendrier des communications — FOSS4G Belgium 2026
+# Communications Calendar — FOSS4G Belgium 2026
 
-> Cocher ✅ quand la publication est faite.  
-> **Responsable comms :** _à désigner_  
-> Canaux : ML = Mailing list · MX = Matrix · MD = Mastodon · TW = Twitter/X · LI = LinkedIn · FB = Facebook · TG = Telegram
+> Check ✅ when a post is published.  
+> **Comms lead:** _to assign_  
+> Channels: ML = Mailing list · MX = Matrix · MD = Mastodon · TW = Twitter/X · LI = LinkedIn · FB = Facebook · TG = Telegram
 
 ---
 
-## Légende types de messages
+## Message types
 
 | Type | Description |
 |------|-------------|
-| 📣 `call` | Lancement d'un Call (Sponsors, Presentations, Volunteers, Maps) |
-| 🔔 `reminder` | Rappel deadline approchante |
-| 📅 `save-date` | Save the date / rappel événement |
-| 🎉 `annonce` | Annonce majeure (programme, speakers, lieu…) |
-| 📸 `post-event` | Communications post-événement |
+| 📣 `call` | Launch of a Call (Sponsors, Presentations, Volunteers, Maps) |
+| 🔔 `reminder` | Upcoming deadline reminder |
+| 📅 `save-date` | Save the date / event reminder |
+| 🎉 `announce` | Major announcement (programme, speakers, venue…) |
+| 📸 `post-event` | Post-event communications |
 
 ---
 
-## Juin 2026
+## June 2026
 
 | Date | Type | Message | ML | MX | MD | TW | LI | FB | TG |
 |------|------|---------|----|----|----|----|----|----|---|
-| 1 juin | 📣 `call` | **Lancement Call for Sponsors** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 15 juin | 📅 `save-date` | Save the date — 15 octobre, Bruxelles | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 30 juin | 🔔 `reminder` | Rappel CfS — "encore quelques places sponsors" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 June | 📣 `call` | **Launch Call for Sponsors** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 15 June | 📅 `save-date` | Save the date — 15 October, Brussels | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 30 June | 🔔 `reminder` | CfS reminder — "a few sponsor slots left" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ---
 
-## Juillet 2026
+## July 2026
 
 | Date | Type | Message | ML | MX | MD | TW | LI | FB | TG |
 |------|------|---------|----|----|----|----|----|----|---|
-| 7 juil. | 📣 `call` | **Lancement Call for Presentations** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 7 juil. | 📣 `call` | **Lancement Call for Volunteers** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 7 juil. | 📣 `call` | **Lancement Call for Maps** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 20 juil. | 🔔 `reminder` | Rappel CfP — "J-21 pour soumettre" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 July | 📣 `call` | **Launch Call for Presentations** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 July | 📣 `call` | **Launch Call for Volunteers** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 July | 📣 `call` | **Launch Call for Maps** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 20 July | 🔔 `reminder` | CfP reminder — "3 weeks left to submit" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ---
 
-## Août 2026
+## August 2026
 
 | Date | Type | Message | ML | MX | MD | TW | LI | FB | TG |
 |------|------|---------|----|----|----|----|----|----|---|
-| 3 août | 🔔 `reminder` | Rappel CfP — **"Dernière semaine !"** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 10 août | 🔔 `reminder` | **Clôture CfP** — "Soumissions closes" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 25 août | 🎉 `annonce` | Notification speakers acceptés _(email direct)_ | ☐ | — | — | — | — | — | — |
+| 3 Aug | 🔔 `reminder` | CfP — **"Last week!"** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 Aug | 🔔 `reminder` | **CfP closed** — "Submissions are closed" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 25 Aug | 🎉 `announce` | Speaker notifications _(direct email only)_ | ☐ | — | — | — | — | — | — |
 
 ---
 
-## Septembre 2026
+## September 2026
 
 | Date | Type | Message | ML | MX | MD | TW | LI | FB | TG |
 |------|------|---------|----|----|----|----|----|----|---|
-| 1 sept. | 🎉 `annonce` | **Programme publié !** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 1 sept. | 🎉 `annonce` | **Inscriptions ouvertes** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 1 sept. | 🔔 `reminder` | Rappel CfV — "Places bénévoles encore dispo" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 15 sept. | 🔔 `reminder` | Rappel CfM — "J-16 pour soumettre votre carte" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 20 sept. | 🔔 `reminder` | Rappel inscriptions — "Early bird se termine bientôt" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 Sept | 🎉 `announce` | **Programme published!** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 Sept | 🎉 `announce` | **Registrations open** (Pretix) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 Sept | 🔔 `reminder` | CfV — "volunteer spots still available" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 15 Sept | 🔔 `reminder` | CfM — "16 days left to submit your map" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 20 Sept | 🔔 `reminder` | Registration reminder | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ---
 
-## Octobre 2026 — Avant l'événement
+## October 2026 — Before the event
 
 | Date | Type | Message | ML | MX | MD | TW | LI | FB | TG |
 |------|------|---------|----|----|----|----|----|----|---|
-| 1 oct. | 🔔 `reminder` | **J-14** — "Plus que 2 semaines !" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 8 oct. | 🔔 `reminder` | **J-7** — Programme complet + infos pratiques | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 14 oct. | 🔔 `reminder` | **J-1** — "Demain ! Rappel lieu et horaires" | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 15 oct. | 📅 `save-date` | **Live-posts pendant l'événement** (bénévole comms) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 Oct | 🔔 `reminder` | **2 weeks to go!** | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 Oct | 🔔 `reminder` | **1 week to go** — full programme + practical info | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 14 Oct | 🔔 `reminder` | **Tomorrow!** — venue address and schedule | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 15 Oct | 📅 `save-date` | **Live posts during the event** (comms volunteer) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ---
 
-## Octobre–Novembre 2026 — Post-événement
+## October–November 2026 — Post-event
 
 | Date | Type | Message | ML | MX | MD | TW | LI | FB | TG |
 |------|------|---------|----|----|----|----|----|----|---|
-| 16 oct. | 📸 `post-event` | "Merci à tous !" + photos | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 31 oct. | 📸 `post-event` | Slides et vidéos en ligne | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 15 nov. | 📸 `post-event` | Bilan de l'édition (mailing list + site) | ☐ | — | ☐ | — | ☐ | — | — |
+| 16 Oct | 📸 `post-event` | "Thank you all!" + photos | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 31 Oct | 📸 `post-event` | Slides and videos online | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 15 Nov | 📸 `post-event` | Edition wrap-up (mailing list + website) | ☐ | — | ☐ | — | ☐ | — | — |
 
 ---
 
-## Notes d'automatisation
+## Automation options
 
-Pour réduire la charge manuelle, voici des options classées par complexité :
+### Option 1 — Manual with structure (recommended to start)
+- This file as a shared checklist on GitHub
+- Comms lead checks off and publishes
+- GitHub Issues with due dates for each send
 
-### Option 1 — Manuel structuré (recommandé pour démarrer)
-- Ce fichier comme checklist partagée sur GitHub
-- Un·e responsable comms coche et publie
-- Notifications GitHub Issues avec date d'échéance pour chaque envoi
+### Option 2 — Semi-automated with GitHub Actions
+- A `cron` workflow auto-creates a GitHub Issue on each key date
+- The Issue contains the text to publish
+- The comms lead publishes manually → checks off → closes the Issue
+- See: [automation/github-actions.md](../automation/github-actions.md)
 
-### Option 2 — Semi-automatisé avec GitHub Actions
-- Un workflow `cron` crée automatiquement une Issue GitHub à chaque date clé
-- L'Issue contient le texte à publier (depuis ce fichier ou un template)
-- Le·la responsable publie manuellement depuis l'Issue → coche → ferme l'Issue
-- Exemple fichier : `.github/workflows/comms-reminders.yml`
-
-### Option 3 — Automatisation sociale (Mastodon + Matrix)
-- GitHub Action → API Mastodon (fosstodon.org) pour les posts courts
-- GitHub Action → webhook Matrix pour les rappels dans le channel
-- Facebook/LinkedIn nécessitent une app approuvée (plus complexe)
-
-> **Recommandation :** commencer par Option 1 + Option 2 pour Mastodon et Matrix.  
-> Voir [automation/github-actions.md](../automation/github-actions.md) pour la mise en œuvre.
+### Option 3 — Social automation (Mastodon + Matrix)
+- GitHub Action → Mastodon API (fosstodon.org) for short posts
+- GitHub Action → Matrix webhook for channel reminders
+- Facebook/LinkedIn require an approved app (more complex)
