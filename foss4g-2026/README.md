@@ -53,7 +53,7 @@ All planned posts across every channel:
 
 **Channels:**
 - 📧 [Mailing list](https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium)
-- 💬 [Matrix #osgeo-be:matrix.org](https://matrix.to/#/#osgeo-be:matrix.org)
+- 💬 [Matrix #osgeo-be:matrix.org](https://app.element.io/#/room/#osgeo-be:matrix.org) _(opens in browser — [new to Matrix?](https://joinmatrix.org/guide/))_
 - 🐘 [Mastodon @osgeobe@fosstodon.org](https://fosstodon.org/@osgeobe)
 - 🐦 [Twitter/X @osgeobe](https://twitter.com/osgeobe)
 - 💼 [LinkedIn osgeo-be](https://be.linkedin.com/company/osgeo-be)

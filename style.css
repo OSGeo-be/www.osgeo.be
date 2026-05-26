@@ -550,6 +550,13 @@ img, svg { display: block; }
 }
 .social-link:hover { border-color: var(--green); background: var(--green-pale); color: var(--green-dark); text-decoration: none; }
 .social-link .icon { width: 20px; height: 20px; flex-shrink: 0; }
+.contact-matrix-help {
+  margin-top: .6rem;
+  font-size: .8rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.contact-matrix-help a { color: var(--blue); }
 
 /* === ARCHIVE TABLE === */
 .year-group { margin-bottom: 3rem; }
