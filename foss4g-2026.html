@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FOSS4G Belgium 2026 — Save the date</title>
+  <meta name="description" content="FOSS4G Belgium 2026 — 15 octobre 2026, Bruxelles. Appels à contributions, planning et informations pour la conférence belge des logiciels libres géospatiaux." />
+  <meta property="og:title" content="FOSS4G Belgium 2026" />
+  <meta property="og:description" content="15 octobre 2026 · Bruxelles. Call for Sponsors, Call for Presentations, Call for Volunteers." />
+  <meta property="og:url" content="https://www.osgeo.be/foss4g-2026.html" />
+  <meta property="og:type" content="website" />
+  <title>FOSS4G Belgium 2026</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
 </head>
@@ -20,7 +25,7 @@
       <ul class="nav-links">
         <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
         <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
-        <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+        <li><a href="ag.html" data-i18n="nav.ag">AG & PV</a></li>
         <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
         <li><a href="resources.html" data-i18n="nav.resources">Ressources</a></li>
         <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
@@ -34,60 +39,305 @@
     </nav>
   </header>
 
-  <section class="page-hero" style="background: #b35c00;">
+  <!-- ═══ HERO ═══ -->
+  <section class="f26-hero">
     <div class="container">
-      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+      <nav class="breadcrumb f26-breadcrumb" aria-label="Fil d'Ariane">
         <a href="index.html" data-i18n="bc.home">Accueil</a>
         <span>›</span>
         <a href="archive.html" data-i18n="bc.events">Événements</a>
         <span>›</span>
         <span>FOSS4G Belgium 2026</span>
       </nav>
-      <h1>FOSS4G Belgium 2026</h1>
-      <p data-i18n="foss4g26.hero.sub">La prochaine conférence belge des logiciels libres géospatiaux.</p>
+      <div class="f26-hero-inner">
+        <div class="f26-hero-date">
+          <p class="f26-date-label" data-i18n="foss4g26.label">Save the date</p>
+          <p class="f26-date-day">15</p>
+          <p class="f26-date-month" data-i18n="foss4g26.month">octobre 2026</p>
+          <p class="f26-date-loc">📍 Bruxelles, Belgique</p>
+          <div class="f26-hero-chips">
+            <span class="f26-chip f26-chip-ok" data-i18n="foss4g26.chip.venue">✓ Lieu confirmé</span>
+            <span class="f26-chip f26-chip-ok" data-i18n="foss4g26.chip.catering">✓ Catering en cours</span>
+          </div>
+        </div>
+        <div class="f26-hero-text">
+          <p class="section-eyebrow" style="color:#f9a855;">FOSS4G Belgium</p>
+          <h1>FOSS4G Belgium 2026</h1>
+          <p class="f26-hero-lead" data-i18n="foss4g26.hero.sub">La prochaine conférence belge des logiciels libres géospatiaux.</p>
+
+          <div class="f26-meeting-notice">
+            <span class="f26-meeting-icon">📅</span>
+            <div>
+              <strong data-i18n="foss4g26.meeting.label">Réunion de lancement — 4 juin 2026, 19h00</strong>
+              <br>
+              <span data-i18n="foss4g26.meeting.place">Cercle des Voyageurs, Bruxelles</span>
+              ·
+              <a href="https://meet.jit.si/foss4gbe2026" target="_blank" rel="noopener" data-i18n="foss4g26.meeting.remote">Rejoindre en ligne</a>
+            </div>
+          </div>
+
+          <div class="f26-hero-actions">
+            <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium"
+               target="_blank" rel="noopener"
+               class="btn btn-primary"
+               data-i18n="foss4g26.cta">S'inscrire à la mailing list</a>
+            <a href="#calls" class="btn btn-outline-white" data-i18n="foss4g26.seecalls">Voir les appels →</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container" style="max-width: 680px;">
+  <!-- ═══ CALLS ═══ -->
+  <section class="section section-alt" id="calls">
+    <div class="container">
+      <div class="section-header section-header-center">
+        <p class="section-eyebrow" data-i18n="foss4g26.calls.eyebrow">Appels à contributions</p>
+        <h2 class="section-title" data-i18n="foss4g26.calls.title">Participez à FOSS4G Belgium 2026</h2>
+        <p class="section-sub" data-i18n="foss4g26.calls.sub">Quatre façons de s'impliquer. Les détails seront communiqués via la mailing list.</p>
+      </div>
+      <div class="f26-calls-grid">
 
-      <div style="text-align:center; padding: 3rem 0 2rem;">
-        <div style="display:inline-block; background:#fff8f0; border:2px solid #e07b00; border-radius: var(--radius-lg); padding: 2.5rem 3rem; margin-bottom: 2rem;">
-          <p style="font-size:.85rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#b35c00; margin-bottom:.75rem;" data-i18n="foss4g26.label">Save the date</p>
-          <p style="font-size:3rem; font-weight:800; color:#b35c00; line-height:1; margin-bottom:.5rem;">15</p>
-          <p style="font-size:1.4rem; font-weight:700; color:#b35c00; margin-bottom:.25rem;" data-i18n="foss4g26.month">octobre 2026</p>
-          <p style="font-size:1rem; color: #7a4200; margin-top:.75rem;">📍 Bruxelles, Belgique</p>
+        <div class="f26-call-card">
+          <div class="f26-call-icon">💰</div>
+          <div class="f26-call-body">
+            <div class="f26-call-head">
+              <h3 data-i18n="foss4g26.cfs.title">Call for Sponsors</h3>
+              <span class="f26-badge f26-badge-soon" data-i18n="foss4g26.badge.soon">Bientôt</span>
+            </div>
+            <p data-i18n="foss4g26.cfs.desc">Soutenez la conférence et gagnez en visibilité auprès de la communauté géospatiale belge.</p>
+            <p class="f26-call-deadline"><span data-i18n="foss4g26.deadline">Date limite :</span> 1 septembre 2026</p>
+          </div>
+          <div class="f26-call-footer">
+            <a href="foss4g-2026-sponsors.html" class="btn btn-outline btn-sm" data-i18n="foss4g26.details">Détails →</a>
+          </div>
         </div>
 
-        <h2 style="font-size:1.5rem; font-weight:700; margin-bottom:1rem;" data-i18n="foss4g26.title">Soyez informé(e) en premier</h2>
-        <p style="color:var(--text-muted); margin-bottom:2rem;" data-i18n="foss4g26.desc">
+        <div class="f26-call-card">
+          <div class="f26-call-icon">🗣️</div>
+          <div class="f26-call-body">
+            <div class="f26-call-head">
+              <h3 data-i18n="foss4g26.cfp.title">Call for Presentations</h3>
+              <span class="f26-badge f26-badge-soon" data-i18n="foss4g26.badge.soon">Bientôt</span>
+            </div>
+            <p data-i18n="foss4g26.cfp.desc">Partagez votre projet, expérience ou recherche open source géospatiale. Talks, lightning talks et ateliers.</p>
+            <p class="f26-call-deadline"><span data-i18n="foss4g26.deadline">Date limite :</span> 10 août 2026</p>
+          </div>
+          <div class="f26-call-footer">
+            <a href="foss4g-2026-presentations.html" class="btn btn-outline btn-sm" data-i18n="foss4g26.details">Détails →</a>
+          </div>
+        </div>
+
+        <div class="f26-call-card">
+          <div class="f26-call-icon">🙋</div>
+          <div class="f26-call-body">
+            <div class="f26-call-head">
+              <h3 data-i18n="foss4g26.cfv.title">Call for Volunteers</h3>
+              <span class="f26-badge f26-badge-soon" data-i18n="foss4g26.badge.soon">Bientôt</span>
+            </div>
+            <p data-i18n="foss4g26.cfv.desc">Rejoignez l'équipe bénévole le jour J. Entrée gratuite, t-shirt et accès aux coulisses.</p>
+            <p class="f26-call-deadline"><span data-i18n="foss4g26.deadline">Date limite :</span> 1 octobre 2026</p>
+          </div>
+          <div class="f26-call-footer">
+            <a href="foss4g-2026-volunteers.html" class="btn btn-outline btn-sm" data-i18n="foss4g26.details">Détails →</a>
+          </div>
+        </div>
+
+        <div class="f26-call-card">
+          <div class="f26-call-icon">🗺️</div>
+          <div class="f26-call-body">
+            <div class="f26-call-head">
+              <h3 data-i18n="foss4g26.cfm.title">Call for Maps</h3>
+              <span class="f26-badge f26-badge-soon" data-i18n="foss4g26.badge.soon">Bientôt</span>
+            </div>
+            <p data-i18n="foss4g26.cfm.desc">Exposez votre carte réalisée avec des outils open source. Tradition depuis 2022.</p>
+            <p class="f26-call-deadline"><span data-i18n="foss4g26.deadline">Date limite :</span> 1 octobre 2026</p>
+          </div>
+          <div class="f26-call-footer">
+            <a href="foss4g-2026-maps.html" class="btn btn-outline btn-sm" data-i18n="foss4g26.details">Détails →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ INSCRIPTIONS ═══ -->
+  <section class="section" id="inscriptions">
+    <div class="container" style="max-width:780px;">
+      <div class="section-header section-header-center">
+        <p class="section-eyebrow" data-i18n="foss4g26.reg.eyebrow">Accès & Inscriptions</p>
+        <h2 class="section-title" data-i18n="foss4g26.reg.title">Entrée libre — inscription obligatoire</h2>
+      </div>
+      <div class="f26-reg-grid">
+
+        <div class="f26-reg-card f26-reg-free">
+          <div class="f26-reg-icon">🎟️</div>
+          <h3 data-i18n="foss4g26.reg.free.title">Participation gratuite</h3>
+          <p data-i18n="foss4g26.reg.free.desc">La conférence est entièrement gratuite. Une inscription préalable est cependant requise pour des raisons logistiques (capacité, catering, badges).</p>
+          <p class="f26-reg-note" data-i18n="foss4g26.reg.free.when">Inscriptions ouvertes en septembre 2026.</p>
+        </div>
+
+        <div class="f26-reg-card f26-reg-training">
+          <div class="f26-reg-icon">🎓</div>
+          <h3 data-i18n="foss4g26.reg.training.title">Attestation de formation</h3>
+          <p data-i18n="foss4g26.reg.training.desc">Vous avez besoin d'une attestation de formation pour votre participation ? C'est possible en parallèle, via un mécanisme de sponsoring organisationnel.</p>
+          <a href="mailto:board@osgeo.be" class="btn btn-outline btn-sm" style="margin-top:.75rem;" data-i18n="foss4g26.reg.training.cta">Contacter board@osgeo.be</a>
+        </div>
+
+      </div>
+
+      <div class="f26-reg-legal">
+        <p data-i18n="foss4g26.reg.legal">Conformément aux conditions du lieu, aucun droit d'entrée n'est perçu pour la conférence. Tout soutien financier passe exclusivement par le sponsoring organisationnel, permettant de couvrir les frais d'organisation de l'événement.</p>
+      </div>
+
+      <!-- ── PRETIX WIDGET ── -->
+      <!-- À activer en septembre 2026 : remplacer le bloc f26-pretix-placeholder
+           par le widget Pretix en décommentant le bloc ci-dessous
+           et en renseignant l'URL de votre événement Pretix.
+
+      <link rel="stylesheet" href="https://pretix.eu/static/pretixwidget/v2/widget.css" />
+      <pretix-widget event="https://pretix.eu/osgeobe/foss4g2026/"></pretix-widget>
+      <noscript>
+        <div class="pretix-widget">
+          <div class="pretix-widget-info-message">
+            JavaScript désactivé — <a target="_blank" rel="noopener"
+            href="https://pretix.eu/osgeobe/foss4g2026/">Accéder au formulaire →</a>
+          </div>
+        </div>
+      </noscript>
+      <script src="https://pretix.eu/static/pretixwidget/v2/widget.js" async></script>
+      -->
+
+      <div class="f26-pretix-placeholder">
+        <p class="f26-pretix-label" data-i18n="foss4g26.reg.widget.label">Inscriptions</p>
+        <p class="f26-pretix-note" data-i18n="foss4g26.reg.widget.note">Le formulaire d'inscription ouvrira en septembre 2026, une fois le programme publié.</p>
+        <div class="f26-prereg-actions">
+          <div class="f26-prereg-option">
+            <p class="f26-prereg-option-label" data-i18n="foss4g26.reg.prereg.ml.label">📧 Mailing list</p>
+            <p class="f26-prereg-option-desc" data-i18n="foss4g26.reg.prereg.ml.desc">Soyez notifié(e) par email dès l'ouverture des inscriptions.</p>
+            <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium"
+               target="_blank" rel="noopener"
+               class="btn btn-primary btn-sm"
+               data-i18n="foss4g26.cta">S'inscrire à la mailing list</a>
+          </div>
+          <div class="f26-prereg-divider" data-i18n="foss4g26.reg.prereg.or">ou</div>
+          <div class="f26-prereg-option">
+            <p class="f26-prereg-option-label" data-i18n="foss4g26.reg.prereg.wl.label">🎟️ Liste d'attente Pretix</p>
+            <p class="f26-prereg-option-desc" data-i18n="foss4g26.reg.prereg.wl.desc">Pré-inscription : recevez un lien personnel dès l'ouverture officielle.</p>
+            <!-- Remplacer le href par l'URL Pretix en septembre 2026 -->
+            <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium"
+               target="_blank" rel="noopener"
+               class="btn btn-outline btn-sm f26-pretix-wl-btn"
+               data-i18n="foss4g26.reg.prereg.wl.cta">Rejoindre la liste d'attente</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ TIMELINE ═══ -->
+  <section class="section" id="planning">
+    <div class="container" style="max-width:780px;">
+      <div class="section-header section-header-center">
+        <p class="section-eyebrow" data-i18n="foss4g26.timeline.eyebrow">Planning</p>
+        <h2 class="section-title" data-i18n="foss4g26.timeline.title">Dates clés</h2>
+      </div>
+      <ol class="f26-timeline">
+        <li class="f26-tl-item">
+          <div class="f26-tl-dot"></div>
+          <div class="f26-tl-content">
+            <p class="f26-tl-date" data-i18n="foss4g26.tl.jun">Juin 2026</p>
+            <p class="f26-tl-text" data-i18n="foss4g26.tl.jun.text">Confirmation du lieu · Lancement Call for Sponsors</p>
+          </div>
+        </li>
+        <li class="f26-tl-item">
+          <div class="f26-tl-dot"></div>
+          <div class="f26-tl-content">
+            <p class="f26-tl-date" data-i18n="foss4g26.tl.jul">Juillet 2026</p>
+            <p class="f26-tl-text" data-i18n="foss4g26.tl.jul.text">Call for Presentations · Call for Volunteers · Call for Maps</p>
+          </div>
+        </li>
+        <li class="f26-tl-item">
+          <div class="f26-tl-dot"></div>
+          <div class="f26-tl-content">
+            <p class="f26-tl-date" data-i18n="foss4g26.tl.aug">Août 2026</p>
+            <p class="f26-tl-text" data-i18n="foss4g26.tl.aug.text">Clôture Call for Presentations · Sélection du programme</p>
+          </div>
+        </li>
+        <li class="f26-tl-item">
+          <div class="f26-tl-dot"></div>
+          <div class="f26-tl-content">
+            <p class="f26-tl-date" data-i18n="foss4g26.tl.sep">Septembre 2026</p>
+            <p class="f26-tl-text" data-i18n="foss4g26.tl.sep.text">Programme publié · Inscriptions ouvertes</p>
+          </div>
+        </li>
+        <li class="f26-tl-item f26-tl-main">
+          <div class="f26-tl-dot f26-tl-dot-main"></div>
+          <div class="f26-tl-content">
+            <p class="f26-tl-date" data-i18n="foss4g26.tl.oct">15 octobre 2026</p>
+            <p class="f26-tl-text f26-tl-highlight" data-i18n="foss4g26.tl.oct.text">🎉 FOSS4G Belgium 2026 — Bruxelles</p>
+          </div>
+        </li>
+        <li class="f26-tl-item">
+          <div class="f26-tl-dot"></div>
+          <div class="f26-tl-content">
+            <p class="f26-tl-date" data-i18n="foss4g26.tl.nov">Novembre 2026</p>
+            <p class="f26-tl-text" data-i18n="foss4g26.tl.nov.text">Bilan · Présentations et photos en ligne</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ═══ GITHUB / TRANSPARENCE ═══ -->
+  <section class="section section-dark f26-github-section">
+    <div class="container" style="max-width:720px; text-align:center;">
+      <p class="section-eyebrow" style="color:#4daf5c;" data-i18n="foss4g26.gh.eyebrow">Organisation ouverte</p>
+      <h2 style="font-size:1.5rem; font-weight:700; color:#fff; margin-bottom:.75rem;" data-i18n="foss4g26.gh.title">Tout est public sur GitHub</h2>
+      <p style="color:rgba(255,255,255,.75); margin-bottom:2rem;" data-i18n="foss4g26.gh.desc">
+        Planning, calls, groupes de travail et calendrier des communications sont suivis en open sur GitHub.
+        Proposez une idée, signalez un problème ou rejoignez un groupe de travail.
+      </p>
+      <div style="display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap;">
+        <a href="https://github.com/OSGeo-be/www.osgeo.be/tree/main/foss4g-2026"
+           target="_blank" rel="noopener"
+           class="btn btn-primary" data-i18n="foss4g26.gh.cta">Voir le planning sur GitHub</a>
+        <a href="https://github.com/OSGeo-be/www.osgeo.be/issues"
+           target="_blank" rel="noopener"
+           class="btn btn-outline-white" data-i18n="foss4g26.gh.issue">Ouvrir une Issue</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MAILING LIST / RESTER INFORMÉ ═══ -->
+  <section class="section">
+    <div class="container" style="max-width:680px;">
+      <div class="foss4g-info" style="text-align:center;">
+        <h2 class="foss4g-info-title" data-i18n="foss4g26.title">Soyez informé(e) en premier</h2>
+        <p class="foss4g-info-desc" data-i18n="foss4g26.desc">
           Les détails (lieu, programme, inscriptions) seront communiqués via la mailing list OSGeo Belgium.
           Inscrivez-vous pour ne rien manquer.
         </p>
-
         <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium"
            target="_blank" rel="noopener"
-           class="btn btn-primary"
-           style="background:#b35c00; border-color:#b35c00; font-size:1rem; padding:.85rem 2rem;"
-           data-i18n="foss4g26.cta">
-          S'inscrire à la mailing list
-        </a>
-
-        <p style="margin-top:1.5rem; font-size:.85rem; color:var(--text-muted);">
+           class="btn btn-primary foss4g-btn"
+           data-i18n="foss4g26.cta">S'inscrire à la mailing list</a>
+        <p class="foss4g-mail-link">
           <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener">
             lists.osgeo.org/cgi-bin/mailman/listinfo/belgium
           </a>
         </p>
       </div>
 
-      <hr style="border:none; border-top:1px solid var(--border); margin: 2rem 0;" />
+      <hr class="divider" />
 
-      <div style="text-align:center;">
+      <div class="foss4g-history" style="text-align:center;">
         <p class="section-eyebrow" style="margin-bottom:.5rem;">FOSS4G Belgium</p>
-        <p style="font-size:.9rem; color:var(--text-muted); margin-bottom:1.5rem;" data-i18n="foss4g26.history">Organisé depuis 2015 par OSGeo Belgium.</p>
+        <p class="foss4g-history-text" data-i18n="foss4g26.history">Organisé depuis 2015 par OSGeo Belgium.</p>
         <a href="archive.html" class="btn btn-ghost btn-sm" data-i18n="foss4g26.archive">Voir toutes les éditions →</a>
       </div>
-
     </div>
   </section>
 
@@ -103,7 +353,7 @@
           <ul>
             <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
             <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
-            <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+            <li><a href="ag.html" data-i18n="nav.ag">AG & PV</a></li>
             <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
             <li><a href="resources.html" data-i18n="nav.resources">Ressources</a></li>
             <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
@@ -112,7 +362,7 @@
         <div class="footer-col">
           <h4>FOSS4G</h4>
           <ul>
-            <li><a href="foss4g-2026.html">2026 Save the date</a></li>
+            <li><a href="foss4g-2026.html">2026</a></li>
             <li><a href="https://www.foss4g.be" target="_blank" rel="noopener">2025 foss4g.be</a></li>
             <li><a href="https://2024.foss4g.be/" target="_blank" rel="noopener">2024 BE+NL</a></li>
             <li><a href="https://2022.foss4g.be/" target="_blank" rel="noopener">2022</a></li>
@@ -134,7 +384,7 @@
       </div>
       <div class="footer-bottom">
         <p>© 2025 OSGeo Belgium — BE 0641.662.720 — IBAN BE78 5230 8075 3686 (Triodos)</p>
-        <p style="font-size:.75rem;margin-top:.25rem;">
+        <p class="footer-legal-sm">
           <a href="coc.html" data-i18n="footer.coc">Code de conduite</a> ·
           <span data-i18n="footer.license">Contenu sous licence CC-BY 3.0</span> ·
           <a href="https://github.com/OSGeo-be" target="_blank" rel="noopener" data-i18n="footer.feedback">Feedback sur GitHub</a>
