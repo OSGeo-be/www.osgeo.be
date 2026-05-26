@@ -1,61 +1,75 @@
 # Call for Maps — FOSS4G Belgium 2026
 
-> **Statut :** 🔴 Pas encore ouvert  
-> **Ouverture prévue :** 7 juillet 2026  
-> **Date limite :** 1 octobre 2026  
-> **Contact :** [board@osgeo.be](mailto:board@osgeo.be)
+> **Status:** 🔴 Not yet open  
+> **Expected opening:** 7 July 2026  
+> **Deadline:** 1 October 2026  
+> **Contact:** [board@osgeo.be](mailto:board@osgeo.be)
 
-_La tradition Maps Competition est présente depuis 2022 (FOSS4G 2022 et 2024)._
-
----
-
-## Message à envoyer
+_The Maps Competition is a FOSS4G Belgium tradition since 2022._
 
 ---
 
-**[FR]**
-
-Chers membres, chères membres,
-
-Pour FOSS4G Belgium 2026, nous relançons la **Maps Competition** !
-
-Vous avez réalisé une belle carte avec des outils open source ? Soumettez-la pour qu'elle soit exposée pendant la conférence !
-
-### Critères
-
-- Carte réalisée **entièrement avec des logiciels libres** (QGIS, GRASS, R, Python/Matplotlib, Mapbox GL, Leaflet, etc.)
-- Format : fichier image haute résolution (PNG/PDF, min. 300 dpi) pour impression A2 ou A1
-- Tout thème accepté : urbain, environnement, histoire, transport, art…
-- Une légende et un titre sont requis
-
-### Comment soumettre ?
-
-Envoyez votre carte et une courte description (150 mots max) à : **[Lien formulaire — à compléter]**  
-ou par email à [board@osgeo.be](mailto:board@osgeo.be)
-
-Les meilleures cartes seront **imprimées et exposées** le jour de la conférence.
+## Message to send
 
 ---
 
 **[EN]**
 
-Submit your map made with open-source tools to our Maps Competition!  
-Best maps will be printed and displayed at FOSS4G Belgium 2026, Brussels, October 15.
+Dear all,
 
-Submissions: **[Form link — to complete]**
+For FOSS4G Belgium 2026, we are launching the **Maps Competition** again!
+
+Did you make a great map using open-source tools? Submit it to have it displayed at the conference!
+
+### Criteria
+
+- Map made **entirely with open-source software** (QGIS, GRASS, R, Python/Matplotlib, MapLibre, Leaflet, Inkscape…)
+- High-resolution image file (PNG or PDF, min. 300 dpi) for A1 or A2 printing
+- Any topic welcome: urban, environment, history, transport, art…
+- A legend and title are required
+- Short description (max 150 words) mentioning the tools used
+
+### What happens next?
+
+- Selection by the organising committee in early October
+- Selected maps printed in large format
+- Displayed throughout the day on 15 October
+- Authors credited on the maps and in the programme
+
+### How to submit?
+
+Submit your map here: **[Form link — to complete]**  
+Or email it to [board@osgeo.be](mailto:board@osgeo.be)
+
+Best regards,  
+_The FOSS4G Belgium 2026 team_
 
 ---
 
-## Canaux de diffusion
+**[FR]**
 
-| Canal | Fait ? | Date prévue |
-|-------|--------|-------------|
-| Mailing list | ☐ | 7 juil. 2026 |
-| Matrix | ☐ | 7 juil. 2026 |
-| Mastodon | ☐ | 7 juil. 2026 |
-| LinkedIn | ☐ | 7 juil. 2026 |
-| Twitter/X | ☐ | 7 juil. 2026 |
-| Facebook | ☐ | 7 juil. 2026 |
-| Telegram | ☐ | 7 juil. 2026 |
-| **Relance** (15 sept.) | ☐ | 15 sept. 2026 | |
-| **Clôture** (1 oct.) | ☐ | 1 oct. 2026 | |
+Soumettez votre carte réalisée avec des outils open source !  
+Date limite : **1 octobre 2026** · Formulaire : **[à compléter]**
+
+---
+
+**[NL]**
+
+Stuur uw kaart gemaakt met open-source tools in!  
+Deadline: **1 oktober 2026** · Formulier: **[in te vullen]**
+
+---
+
+## Channels checklist
+
+| Channel | Done? | Planned date |
+|---------|-------|-------------|
+| Mailing list | ☐ | 7 July 2026 |
+| Matrix | ☐ | 7 July 2026 |
+| Mastodon | ☐ | 7 July 2026 |
+| LinkedIn | ☐ | 7 July 2026 |
+| Twitter/X | ☐ | 7 July 2026 |
+| Facebook | ☐ | 7 July 2026 |
+| Telegram | ☐ | 7 July 2026 |
+| **Reminder** (15 Sept.) | ☐ | 15 September 2026 |
+| **Closed** (1 Oct.) | ☐ | 1 October 2026 |

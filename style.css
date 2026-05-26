@@ -1382,6 +1382,152 @@ img, svg { display: block; }
 .f26-meeting-notice a { color: #f9c880; text-decoration: underline; }
 .f26-meeting-notice a:hover { color: #fff; }
 
+/* ── FOSS4G 2026 — carte Leaflet ─────────────────────────── */
+
+/* Cadre cartographique */
+.f26-map-frame {
+  position: relative;
+  border: 3px solid var(--green-dark);
+  box-shadow:
+    inset 0 0 0 1px rgba(2,59,65,.25),
+    0 8px 32px rgba(0,0,0,.12);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #e8e0d5;
+}
+
+#f26-map {
+  height: 300px;
+  width: 100%;
+  display: block;
+  cursor: crosshair;
+}
+
+/* Légende — overlay en bas à gauche, style cartographique */
+.f26-map-legend {
+  position: absolute;
+  bottom: 28px;
+  left: 12px;
+  z-index: 800;
+  background: rgba(255,255,255,.96);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: .75rem 1rem;
+  min-width: 180px;
+  box-shadow: var(--shadow);
+  font-size: .82rem;
+  line-height: 1.5;
+}
+.f26-map-legend-title {
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--green-dark);
+  margin-bottom: .3rem;
+}
+.f26-map-legend-addr {
+  color: var(--text-mid);
+  margin-bottom: .4rem;
+}
+.f26-map-legend-link {
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--blue);
+  text-decoration: none;
+}
+.f26-map-legend-link:hover { text-decoration: underline; }
+.f26-map-legend-sep {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: .5rem 0;
+}
+.f26-map-legend-transport {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  list-style: none;
+  padding: 0;
+}
+.f26-map-legend-transport li {
+  color: var(--text-muted);
+  font-size: .78rem;
+  display: flex;
+  gap: .35rem;
+  align-items: baseline;
+}
+
+/* Flèche nord — coin haut-droite */
+.f26-map-north {
+  position: absolute;
+  top: 10px;
+  right: 48px;
+  z-index: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255,255,255,.9);
+  border: 1px solid var(--border-mid);
+  border-radius: 4px;
+  padding: .2rem .35rem;
+  line-height: 1.1;
+}
+.f26-map-north-arrow {
+  font-size: .95rem;
+  color: var(--green-dark);
+  font-weight: 700;
+}
+.f26-map-north-label {
+  font-size: .6rem;
+  font-weight: 800;
+  letter-spacing: .05em;
+  color: var(--text-muted);
+}
+
+/* Crédit sous la carte */
+.f26-map-credit {
+  margin-top: .5rem;
+  font-size: .72rem;
+  color: var(--text-muted);
+  text-align: right;
+}
+.f26-map-credit a { color: var(--text-muted); }
+.f26-map-credit a:hover { color: var(--blue); }
+
+/* Marqueur pulsant */
+.f26-pin {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(77,175,92,.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: f26-pulse 2.4s ease-out infinite;
+}
+.f26-pin-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--green);
+  border: 2.5px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+@keyframes f26-pulse {
+  0%   { box-shadow: 0 0 0 0   rgba(77,175,92,.55); }
+  65%  { box-shadow: 0 0 0 14px rgba(77,175,92,0);  }
+  100% { box-shadow: 0 0 0 0   rgba(77,175,92,0);   }
+}
+
+/* Surcharge popup Leaflet */
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow) !important;
+  font-family: inherit !important;
+}
+.leaflet-popup-tip-container { display: none; }
+
 /* ── FOSS4G 2026 — pages calls ────────────────────────────── */
 
 /* Hero des pages call */

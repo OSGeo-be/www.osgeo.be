@@ -1,151 +1,151 @@
-# Planning — Responsables & groupes de travail
+# Planning — Working groups & leads
 
-> Mise à jour : mai 2026
-> Pour modifier : ouvrir une PR ou contacter via Matrix `#osgeo-be:matrix.org`
+> Last updated: May 2026
+> To update: open a PR or reach out on Matrix `#osgeo-be:matrix.org`
 
 ---
 
-## Groupes de travail
+## Working groups
 
-### 🏛️ Lieu & Logistique
-| Champ | Valeur |
-|-------|--------|
-| **Responsable** | _à désigner_ |
-| **Membres** | _à compléter_ |
-| **Canal** | Matrix `#foss4g2026-venue:matrix.org` |
+### 🏛️ Venue & Logistics
+| | |
+|-|-|
+| **Lead** | _to assign_ |
+| **Members** | _to fill in_ |
+| **Channel** | Matrix `#foss4g2026-venue:matrix.org` |
 
-**Tâches clés :**
-- [ ] Confirmer le lieu (contrat signé) — **deadline : 15 juin 2026**
-- [ ] Définir plan de salle (salles plénière + tracks + ateliers)
-- [ ] Organiser catering (pauses café, lunch)
-- [ ] Signalétique & badges
-- [ ] Matériel A/V (sono, projecteurs, streaming éventuel)
-- [ ] Accessibilité (PMR, toilettes, vestiaire)
-- [ ] Checklist jour J → [templates/checklist-jour-j.md](../templates/checklist-jour-j.md)
+**Key tasks:**
+- [ ] Sign venue contract — **deadline: 15 June 2026**
+- [ ] Define room layout (plenary + tracks + workshops)
+- [ ] Organise catering (coffee breaks, lunch)
+- [ ] Signage & badges
+- [ ] A/V equipment (sound, projectors, streaming)
+- [ ] Accessibility (wheelchair, toilets, cloakroom)
+- [ ] Day-of checklist → [templates/checklist-day-of.md](../templates/checklist-day-of.md)
 
 ---
 
 ### 💰 Sponsors
-| Champ | Valeur |
-|-------|--------|
-| **Responsable** | _à désigner_ |
-| **Membres** | _à compléter_ |
-| **Canal** | Matrix `#foss4g2026-sponsors:matrix.org` |
+| | |
+|-|-|
+| **Lead** | _to assign_ |
+| **Members** | _to fill in_ |
+| **Channel** | Matrix `#foss4g2026-sponsors:matrix.org` |
 
-**Tâches clés :**
-- [ ] Finaliser dossier de sponsoring — **deadline : 1 juin 2026**
-- [ ] Identifier prospects (réutiliser archive sponsors 2022–2025)
-- [ ] Envoyer Call for Sponsors — **deadline : 15 juin 2026**
-- [ ] Relance à 4 semaines
-- [ ] Signer contrats & récupérer logos
-- [ ] Intégrer logos sur site web et supports
-- [ ] Facturation et suivi paiements
+**Key tasks:**
+- [ ] Finalise sponsorship brochure — **deadline: 1 June 2026**
+- [ ] Identify prospects (reuse 2022–2025 sponsor archive)
+- [ ] Send Call for Sponsors — **deadline: 15 June 2026**
+- [ ] Follow up after 3–4 weeks
+- [ ] Sign contracts & collect logos
+- [ ] Add logos to website and materials
+- [ ] Invoicing and payment tracking
 
-👉 Template : [calls/call-for-sponsors.md](../calls/call-for-sponsors.md)
+👉 Template: [calls/call-for-sponsors.md](../calls/call-for-sponsors.md)
 
 ---
 
 ### 🗣️ Programme & Call for Presentations
-| Champ | Valeur |
-|-------|--------|
-| **Responsable** | _à désigner_ |
-| **Membres** | _à compléter_ (comité de sélection : min. 3 personnes) |
-| **Canal** | Matrix `#foss4g2026-program:matrix.org` |
+| | |
+|-|-|
+| **Lead** | _to assign_ |
+| **Members** | _to fill in_ (review committee: min. 3 people) |
+| **Channel** | Matrix `#foss4g2026-program:matrix.org` |
 
-**Tâches clés :**
-- [ ] Définir thèmes et tracks
-- [ ] Configurer plateforme CfP (Pretalx recommandé) — **deadline : 1 juil. 2026**
-- [ ] Lancer Call for Presentations — **deadline : 7 juil. 2026**
-- [ ] Clôturer CfP — **deadline : 10 août 2026**
-- [ ] Évaluation & sélection (comité)
-- [ ] Notifier les speakers — **deadline : 25 août 2026**
-- [ ] Publier programme — **deadline : 1 sept. 2026**
-- [ ] Collecter slides post-conférence
+**Key tasks:**
+- [ ] Define topics and tracks
+- [ ] Set up CfP platform (Pretalx recommended) — **deadline: 1 July 2026**
+- [ ] Launch Call for Presentations — **deadline: 7 July 2026**
+- [ ] Close CfP — **deadline: 10 August 2026**
+- [ ] Review & select (committee)
+- [ ] Notify speakers — **deadline: 25 August 2026**
+- [ ] Publish programme — **deadline: 1 September 2026**
+- [ ] Collect slides after the event
 
-👉 Template : [calls/call-for-presentations.md](../calls/call-for-presentations.md)
-
----
-
-### 🙋 Bénévoles
-| Champ | Valeur |
-|-------|--------|
-| **Responsable** | _à désigner_ |
-| **Membres** | _à compléter_ |
-| **Canal** | Matrix `#foss4g2026-volunteers:matrix.org` |
-
-**Tâches clés :**
-- [ ] Définir les rôles bénévoles et effectifs nécessaires
-- [ ] Lancer Call for Volunteers — **deadline : 7 juil. 2026**
-- [ ] Clôturer CfV — **deadline : 1 oct. 2026**
-- [ ] Briefing bénévoles — **deadline : 10 oct. 2026**
-- [ ] Attribuer postes jour J
-- [ ] T-shirts / vestes bénévoles (commande groupée)
-
-👉 Template : [calls/call-for-volunteers.md](../calls/call-for-volunteers.md)
+👉 Template: [calls/call-for-presentations.md](../calls/call-for-presentations.md)
 
 ---
 
-### 📢 Communication
-| Champ | Valeur |
-|-------|--------|
-| **Responsable** | _à désigner_ |
-| **Membres** | _à compléter_ |
-| **Canal** | Matrix `#foss4g2026-comms:matrix.org` |
+### 🙋 Volunteers
+| | |
+|-|-|
+| **Lead** | _to assign_ |
+| **Members** | _to fill in_ |
+| **Channel** | Matrix `#foss4g2026-volunteers:matrix.org` |
 
-**Tâches clés :**
-- [ ] Créer identité visuelle 2026 (logo, bannières)
-- [ ] Mettre à jour site www.osgeo.be/foss4g-2026.html
-- [ ] Exécuter le calendrier communications → [calendar.md](../communication/calendar.md)
-- [ ] Gérer comptes sociaux (Mastodon, Twitter, LinkedIn, Facebook)
-- [ ] Communiqué de presse
-- [ ] Newsletter post-événement
+**Key tasks:**
+- [ ] Define volunteer roles and numbers needed
+- [ ] Launch Call for Volunteers — **deadline: 7 July 2026**
+- [ ] Close CfV — **deadline: 1 October 2026**
+- [ ] Volunteer briefing — **deadline: 10 October 2026**
+- [ ] Assign day-of positions
+- [ ] Volunteer t-shirts / jackets (group order)
+
+👉 Template: [calls/call-for-volunteers.md](../calls/call-for-volunteers.md)
 
 ---
 
-### 🎟️ Inscriptions
-| Champ | Valeur |
-|-------|--------|
-| **Responsable** | _à désigner_ |
-| **Membres** | _à compléter_ |
-| **Canal** | Matrix `#foss4g2026-reg:matrix.org` |
+### 📢 Communications
+| | |
+|-|-|
+| **Lead** | _to assign_ |
+| **Members** | _to fill in_ |
+| **Channel** | Matrix `#foss4g2026-comms:matrix.org` |
 
-**Tâches clés :**
-- [ ] Choisir plateforme (Pretix / Eventbrite / Ti.to)
-- [ ] Définir tarifs (early bird, normal, étudiant, sponsor)
-- [ ] Ouvrir inscriptions — **deadline : 1 sept. 2026**
-- [ ] Suivi et statistiques
-- [ ] Gestion remboursements si annulations
-- [ ] Export liste pour badges
+**Key tasks:**
+- [ ] Create 2026 visual identity (logo, banners)
+- [ ] Keep website up to date (www.osgeo.be/foss4g-2026.html)
+- [ ] Execute comms calendar → [communication/calendar.md](../communication/calendar.md)
+- [ ] Manage social accounts (Mastodon, Twitter, LinkedIn, Facebook)
+- [ ] Press release
+- [ ] Post-event newsletter
+
+---
+
+### 🎟️ Registration
+| | |
+|-|-|
+| **Lead** | _to assign_ |
+| **Members** | _to fill in_ |
+| **Channel** | Matrix `#foss4g2026-reg:matrix.org` |
+
+**Key tasks:**
+- [ ] Set up Pretix event (pretix.eu/osgeobe) — **deadline: 1 August 2026**
+- [ ] Enable waiting list for pre-registration
+- [ ] Open registrations — **deadline: 1 September 2026**
+- [ ] Monitor numbers and statistics
+- [ ] Handle cancellations if needed
+- [ ] Export list for badge printing
 
 ---
 
 ### 🗺️ Maps Competition
-| Champ | Valeur |
-|-------|--------|
-| **Responsable** | _à désigner_ |
-| **Membres** | _à compléter_ |
-| **Canal** | Matrix `#foss4g2026-maps:matrix.org` |
+| | |
+|-|-|
+| **Lead** | _to assign_ |
+| **Members** | _to fill in_ |
+| **Channel** | Matrix `#foss4g2026-maps:matrix.org` |
 
-**Tâches clés :**
-- [ ] Lancer Call for Maps — **deadline : 7 juil. 2026**
-- [ ] Clôturer — **deadline : 1 oct. 2026**
-- [ ] Sélectionner les cartes à exposer/imprimer
-- [ ] Commander impressions
-- [ ] Installer exposition jour J
+**Key tasks:**
+- [ ] Launch Call for Maps — **deadline: 7 July 2026**
+- [ ] Close — **deadline: 1 October 2026**
+- [ ] Select maps for printing/display
+- [ ] Order prints
+- [ ] Set up exhibition on the day
 
-👉 Template : [calls/call-for-maps.md](../calls/call-for-maps.md)
+👉 Template: [calls/call-for-maps.md](../calls/call-for-maps.md)
 
 ---
 
-## Vue calendaire résumée
+## Summary timeline
 
 ```
-         JUIN        JUIL        AOÛT        SEPT        OCT
-Lieu     [contrat]
-Sponsors [CfS]──────[relance]──[clôture]
-Program             [CfP]──────[clôture][sélect.][publié]
-Bénévoles           [CfV]────────────────────────[clôture]
-Maps                [CfM]────────────────────────[clôture]
-Inscriptions                              [ouverture]─────[15/10]
-Comms    [save date][CfS][CfP/CfV]────────────────────────[J]
+         JUNE        JULY        AUG         SEPT        OCT
+Venue    [contract]
+Sponsors [CfS]───────[follow-up]─[close]
+Program             [CfP]────────[close][select][publish]
+Volunteers          [CfV]──────────────────────[close]
+Maps                [CfM]──────────────────────[close]
+Reg.                                    [Pretix]─────────[15/10]
+Comms    [save date][CfS][CfP/CfV]──────────────────────[day-of]
 ```

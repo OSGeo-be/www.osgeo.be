@@ -1,78 +1,78 @@
 # FOSS4G Belgium 2026 — Organisation
 
-> **📅 15 octobre 2026 · 📍 Bruxelles, Belgique**
-> Organisé par [OSGeo Belgium](https://www.osgeo.be)
+> **📅 15 October 2026 · 📍 Brussels, Belgium**
+> Organised by [OSGeo Belgium](https://www.osgeo.be)
 
 ---
 
-## État du projet
+## Project status
 
-| Groupe | Responsable | Statut |
-|--------|-------------|--------|
-| [Lieu & Logistique](#) | _à désigner_ | 🔴 À démarrer |
-| [Sponsors](#) | _à désigner_ | 🔴 À démarrer |
-| [Programme / CfP](#) | _à désigner_ | 🔴 À démarrer |
-| [Bénévoles](#) | _à désigner_ | 🔴 À démarrer |
-| [Communication](#) | _à désigner_ | 🔴 À démarrer |
-| [Inscriptions](#) | _à désigner_ | 🔴 À démarrer |
-| [Maps competition](#) | _à désigner_ | 🔴 À démarrer |
+| Group | Lead | Status |
+|-------|------|--------|
+| [Venue & Logistics](#) | _to assign_ | 🔴 Not started |
+| [Sponsors](#) | _to assign_ | 🔴 Not started |
+| [Programme / CfP](#) | _to assign_ | 🔴 Not started |
+| [Volunteers](#) | _to assign_ | 🔴 Not started |
+| [Communications](#) | _to assign_ | 🔴 Not started |
+| [Registration](#) | _to assign_ | 🔴 Not started |
+| [Maps Competition](#) | _to assign_ | 🔴 Not started |
 
-👉 Détails dans [planning/leaders.md](planning/leaders.md)
-
----
-
-## Calls actifs
-
-| Call | Statut | Deadline | Lien |
-|------|--------|----------|------|
-| 📣 Call for Sponsors | _Pas encore ouvert_ | — | [calls/call-for-sponsors.md](calls/call-for-sponsors.md) |
-| 📣 Call for Presentations | _Pas encore ouvert_ | — | [calls/call-for-presentations.md](calls/call-for-presentations.md) |
-| 📣 Call for Volunteers | _Pas encore ouvert_ | — | [calls/call-for-volunteers.md](calls/call-for-volunteers.md) |
-| 📣 Call for Maps | _Pas encore ouvert_ | — | [calls/call-for-maps.md](calls/call-for-maps.md) |
+👉 Full task list: [planning/leaders.md](planning/leaders.md)
 
 ---
 
-## Dates clés
+## Active calls
+
+| Call | Status | Deadline | Details |
+|------|--------|----------|---------|
+| 📣 Call for Sponsors | _Not yet open_ | — | [calls/call-for-sponsors.md](calls/call-for-sponsors.md) |
+| 📣 Call for Presentations | _Not yet open_ | — | [calls/call-for-presentations.md](calls/call-for-presentations.md) |
+| 📣 Call for Volunteers | _Not yet open_ | — | [calls/call-for-volunteers.md](calls/call-for-volunteers.md) |
+| 📣 Call for Maps | _Not yet open_ | — | [calls/call-for-maps.md](calls/call-for-maps.md) |
+
+---
+
+## Key dates
 
 ```
-Juin 2026       ── Confirmation lieu · Lancement Call for Sponsors
-Juillet 2026    ── Lancement Call for Presentations · Call for Volunteers
-Août 2026       ── Clôture CfP · Sélection programme
-Septembre 2026  ── Programme publié · Inscriptions ouvertes
-1–10 oct 2026   ── Finalisation logistique · Briefing bénévoles
-15 oct 2026     ── 🎉 FOSS4G Belgium 2026
-Novembre 2026   ── Bilan · Mise en ligne présentations
+June 2026       ── Venue confirmed · Call for Sponsors launched
+July 2026       ── Call for Presentations · Volunteers · Maps open
+August 2026     ── Call for Presentations closes · Programme selection
+September 2026  ── Programme published · Registrations open (Pretix)
+1–10 Oct 2026   ── Final logistics · Volunteer briefing
+15 Oct 2026     ── 🎉 FOSS4G Belgium 2026
+November 2026   ── Wrap-up · Presentations online
 ```
 
 ---
 
-## Planning communications
+## Communications calendar
 
-Planning détaillé de toutes les publications prévues sur chaque canal :
+All planned posts across every channel:
 👉 [communication/calendar.md](communication/calendar.md)
 
-**Canaux utilisés :**
-- 📧 [Mailing list OSGeo Belgium](https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium)
+**Channels:**
+- 📧 [Mailing list](https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium)
 - 💬 [Matrix #osgeo-be:matrix.org](https://matrix.to/#/#osgeo-be:matrix.org)
 - 🐘 [Mastodon @osgeobe@fosstodon.org](https://fosstodon.org/@osgeobe)
 - 🐦 [Twitter/X @osgeobe](https://twitter.com/osgeobe)
 - 💼 [LinkedIn osgeo-be](https://be.linkedin.com/company/osgeo-be)
-- 📘 [Facebook Foss4g Belgium](https://www.facebook.com/people/Foss4g-Belgium/100068093147)
+- 📘 [Facebook](https://www.facebook.com/people/Foss4g-Belgium/100068093147)
 - ✈️ [Telegram @osgeobelgium](https://t.me/osgeobelgium)
 
 ---
 
-## Comment contribuer
+## How to contribute
 
-1. Rejoindre la mailing list : [lists.osgeo.org/…/belgium](https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium)
-2. Se présenter sur Matrix : `#osgeo-be:matrix.org`
-3. Ouvrir une [Issue GitHub](../../issues) pour proposer une idée ou signaler un blocage
-4. S'attribuer une tâche dans le [Project board](../../projects)
+1. Join the mailing list: [lists.osgeo.org/…/belgium](https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium)
+2. Say hello on Matrix: `#osgeo-be:matrix.org`
+3. Open a [GitHub Issue](../../issues) to suggest an idea or report a blocker
+4. Pick up a task on the [Project board](../../projects)
 
 ---
 
-## Ressources
+## Resources
 
-- Site web officiel : [www.osgeo.be/foss4g-2026.html](https://www.osgeo.be/foss4g-2026.html)
-- Éditions précédentes : [archive](https://www.osgeo.be/archive.html)
-- Drive partagé : OSGeo.be shared / FOSS4G 2026 _(accès sur demande)_
+- Event page: [www.osgeo.be/foss4g-2026.html](https://www.osgeo.be/foss4g-2026.html)
+- Past editions: [archive](https://www.osgeo.be/archive.html)
+- Shared Drive: OSGeo.be shared / FOSS4G 2026 _(access on request)_
