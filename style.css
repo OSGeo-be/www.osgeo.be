@@ -404,7 +404,7 @@ img, svg { display: block; }
 
 /* === GRID === */
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
+.grid-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
 
 /* === EVENT CARDS === */
@@ -921,7 +921,9 @@ img, svg { display: block; }
   :root {
     --radius-lg: 12px;
   }
-  
+
+  .grid-4 { grid-template-columns: repeat(4, 1fr); }
+
   html {
     font-size: 18px;
   }
