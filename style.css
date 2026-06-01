@@ -403,9 +403,9 @@ img, svg { display: block; }
 .card-text { font-size: .875rem; color: var(--text-mid); line-height: 1.6; }
 
 /* === GRID === */
-.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.grid-3 { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
 .grid-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
-.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+.grid-2 { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
 
 /* === EVENT CARDS === */
 .event-card {
@@ -895,7 +895,10 @@ img, svg { display: block; }
     grid-template-columns: 300px 1fr;
     gap: 2.5rem;
   }
-  
+
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+
   .hero-banner-col {
     position: relative;
     flex-shrink: 0;
