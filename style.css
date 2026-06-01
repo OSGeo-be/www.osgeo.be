@@ -926,6 +926,7 @@ img, svg { display: block; }
   }
 
   .grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .contact-layout { grid-template-columns: 1fr 1fr; gap: 3rem; }
 
   html {
     font-size: 18px;
@@ -1017,7 +1018,7 @@ img, svg { display: block; }
   }
 }
 /* CONTACT PAGE */  
-.contact-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }  
+.contact-layout { display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: start; }  
 .contact-block { margin-bottom: 2.5rem; }  
 .legal-dl { display: grid; grid-template-columns: auto 1fr; gap: 0.5rem 1rem; }  
 .legal-dl dt { font-weight: 600; color: var(--text); }  
