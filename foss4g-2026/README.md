@@ -3,19 +3,21 @@
 > **📅 15 October 2026 · 📍 Brussels, Belgium**
 > Organised by [OSGeo Belgium](https://www.osgeo.be)
 
+📋 **[Meeting notes — 4 June 2026](meeting-notes-2026-06-04.md)** — Kick-off meeting: catering decided (Cannelle), working groups assigned, key dates confirmed.
+
 ---
 
 ## Project status
 
 | Group | Lead | Status |
 |-------|------|--------|
-| [Venue & Logistics](#) | _to assign_ | 🔴 Not started |
-| [Sponsors](#) | _to assign_ | 🔴 Not started |
-| [Programme / CfP](#) | _to assign_ | 🔴 Not started |
+| [Venue & Logistics](#) | _to assign_ | 🟡 In progress |
+| [Catering & Sponsors](#) | Xavier, Charlotte, Gaël | 🟡 In progress |
+| [Programme / CfP](#) | Maëlle, Hugo, Céline | 🟡 In progress |
 | [Volunteers](#) | _to assign_ | 🔴 Not started |
 | [Communications](#) | _to assign_ | 🔴 Not started |
 | [Registration](#) | _to assign_ | 🔴 Not started |
-| [Maps Competition](#) | _to assign_ | 🔴 Not started |
+| [Maps Competition](#) | Roel | 🟡 In progress |
 
 👉 Full task list: [planning/leaders.md](planning/leaders.md)
 
@@ -37,7 +39,7 @@
 ```
 June 2026       ── Venue confirmed · Call for Sponsors launched
 July 2026       ── Call for Presentations · Volunteers · Maps open
-August 2026     ── Call for Presentations closes · Programme selection
+August 2026     ── Call for Presentations closes (early Aug) · Programme selection
 September 2026  ── Programme published · Registrations open (Pretix)
 1–10 Oct 2026   ── Final logistics · Volunteer briefing
 15 Oct 2026     ── 🎉 FOSS4G Belgium 2026
