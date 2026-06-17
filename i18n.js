@@ -350,6 +350,35 @@ const TRANSLATIONS = {
     "res.geodev.desc":          "OSGeo Belgium peut co-organiser un GeoDev Evening pour votre équipe, votre entreprise ou votre communauté : formation, démo, débat ou transfert de connaissances autour du géospatial libre.",
     "res.geodev.cta":           "Proposer un GeoDev Evening",
 
+    // COMMUNITY RESOURCES (fr)
+    "res.community.eyebrow":        "Communauté",
+    "res.community.title":          "Ressources communautaires belges",
+    "res.community.sub":            "Ressources partagées par les membres de la communauté OSGeo Belgium : flux de données, supports pédagogiques, outils et scripts développés localement.",
+    "res.community.ogc.cat":        "Données OGC & flux cartographiques",
+    "res.community.edu.cat":        "Supports pédagogiques",
+    "res.community.tools.cat":      "Outils & scripts",
+    "res.community.stuyts.desc":    "Flux WMTS belges librement accessibles : fond de carte IGN, orthophotos, cadastre… Maintenus par Michel Stuyts.",
+    "res.community.cafesig.desc":   "Matériel didactique libre sur les SIG open source (QGIS, PostGIS, R spatial…). Maintenu par l'ULB.",
+    "res.community.propose.eyebrow":"Contribuer",
+    "res.community.propose.title":  "Proposer une ressource",
+    "res.community.propose.text":   "Vous avez une ressource utile à partager avec la communauté ? Données OGC, support de formation, script, plugin QGIS, outil PostGIS… Ouvrez une issue GitHub et le board l'ajoutera à cette page.",
+    "res.community.propose.cta":    "Proposer via GitHub Issues →",
+    "res.community.propose.format": "Format attendu dans l'issue : Nom · URL · Description courte (1 phrase) · Catégorie (données / pédagogie / outils)",
+
+    // SUPPORT (fr)
+    "res.support.eyebrow":          "Entraide",
+    "res.support.title":            "Support & entraide",
+    "res.support.sub":              "Pour vos questions techniques sur les logiciels géospatiaux libres, les forums existants sont la meilleure ressource : ils rassemblent des milliers d'utilisateurs actifs et des archives consultables.",
+    "res.support.local.cat":        "Canaux OSGeo Belgium",
+    "res.support.official.cat":     "Forums officiels par logiciel",
+    "res.support.ml.desc":          "Mailing list OSGeo Belgium — pour vos questions générales à destination de la communauté belge.",
+    "res.support.matrix.desc":      "Salon Matrix #osgeo-be — chat en temps réel, idéal pour une question rapide.",
+    "res.support.se.desc":          "GIS Stack Exchange — la référence mondiale pour toutes les questions SIG, tous logiciels confondus.",
+    "res.support.qgis.desc":        "Forum officiel QGIS — bugs, plugins, traitements, PyQGIS.",
+    "res.support.postgis.desc":     "Mailing list PostGIS officielle — requêtes spatiales, performance, extensions.",
+    "res.support.geoserver.desc":   "Liste utilisateurs GeoServer — configuration, SLD, WFS, WMS.",
+    "res.support.gdal.desc":        "Mailing list GDAL/OGR — conversion de formats, scripts, drivers.",
+
     // CODE OF CONDUCT
     "coc.hero.title":   "Code de conduite",
     "coc.hero.sub":     "Des règles claires pour une communauté inclusive et respectueuse.",
@@ -786,6 +815,35 @@ const TRANSLATIONS = {
     "res.geodev.desc":          "OSGeo Belgium kan een GeoDev Evening mede-organiseren voor uw team, bedrijf of gemeenschap: opleiding, demo, debat of kennisoverdracht rond vrije geo-software.",
     "res.geodev.cta":           "Een GeoDev Evening voorstellen",
 
+    // COMMUNITY RESOURCES (nl)
+    "res.community.eyebrow":        "Gemeenschap",
+    "res.community.title":          "Belgische gemeenschappelijke middelen",
+    "res.community.sub":            "Middelen gedeeld door leden van de OSGeo Belgium-gemeenschap: datastromen, didactisch materiaal, tools en lokaal ontwikkelde scripts.",
+    "res.community.ogc.cat":        "OGC-data & cartografische stromen",
+    "res.community.edu.cat":        "Didactisch materiaal",
+    "res.community.tools.cat":      "Tools & scripts",
+    "res.community.stuyts.desc":    "Vrij toegankelijke Belgische WMTS-stromen: NGI-basiskaart, orthofoto's, kadaster… Onderhouden door Michel Stuyts.",
+    "res.community.cafesig.desc":   "Vrij didactisch materiaal over open source GIS (QGIS, PostGIS, R spatial…). Onderhouden door de ULB.",
+    "res.community.propose.eyebrow":"Bijdragen",
+    "res.community.propose.title":  "Een middel voorstellen",
+    "res.community.propose.text":   "Heb je een nuttige bron om te delen met de gemeenschap? OGC-data, cursusmateriaal, script, QGIS-plugin, PostGIS-tool… Open een GitHub Issue en het bestuur voegt het toe aan deze pagina.",
+    "res.community.propose.cta":    "Voorstellen via GitHub Issues →",
+    "res.community.propose.format": "Verwacht formaat in het issue: Naam · URL · Korte beschrijving (1 zin) · Categorie (data / didactiek / tools)",
+
+    // SUPPORT (nl)
+    "res.support.eyebrow":          "Ondersteuning",
+    "res.support.title":            "Support & onderlinge hulp",
+    "res.support.sub":              "Voor technische vragen over vrije geospatiale software zijn de bestaande forums de beste bron: ze brengen duizenden actieve gebruikers samen met doorzoekbare archieven.",
+    "res.support.local.cat":        "OSGeo Belgium-kanalen",
+    "res.support.official.cat":     "Officiële forums per software",
+    "res.support.ml.desc":          "OSGeo Belgium mailinglijst — voor algemene vragen aan de Belgische gemeenschap.",
+    "res.support.matrix.desc":      "Matrix-salon #osgeo-be — realtime chat, ideaal voor een snelle vraag.",
+    "res.support.se.desc":          "GIS Stack Exchange — de wereldwijde referentie voor alle GIS-vragen, voor alle software.",
+    "res.support.qgis.desc":        "Officieel QGIS-forum — bugs, plugins, verwerkingen, PyQGIS.",
+    "res.support.postgis.desc":     "Officiële PostGIS mailinglijst — ruimtelijke queries, prestaties, extensies.",
+    "res.support.geoserver.desc":   "GeoServer gebruikerslijst — configuratie, SLD, WFS, WMS.",
+    "res.support.gdal.desc":        "GDAL/OGR mailinglijst — formaatconversie, scripts, drivers.",
+
     // CODE OF CONDUCT
     "coc.hero.title":   "Gedragscode",
     "coc.hero.sub":     "Duidelijke regels voor een inclusieve en respectvolle gemeenschap.",
@@ -1218,6 +1276,35 @@ const TRANSLATIONS = {
     "res.geodev.title":         "Organise a GeoDev Evening",
     "res.geodev.desc":          "OSGeo Belgium can co-organise a GeoDev Evening for your team, company or community: training, demo, debate or knowledge transfer around open source geospatial.",
     "res.geodev.cta":           "Propose a GeoDev Evening",
+
+    // COMMUNITY RESOURCES (en)
+    "res.community.eyebrow":        "Community",
+    "res.community.title":          "Belgian community resources",
+    "res.community.sub":            "Resources shared by OSGeo Belgium community members: data streams, educational materials, tools and locally developed scripts.",
+    "res.community.ogc.cat":        "OGC data & map streams",
+    "res.community.edu.cat":        "Educational materials",
+    "res.community.tools.cat":      "Tools & scripts",
+    "res.community.stuyts.desc":    "Freely accessible Belgian WMTS streams: NGI base map, orthophotos, cadastre… Maintained by Michel Stuyts.",
+    "res.community.cafesig.desc":   "Free educational materials on open source GIS (QGIS, PostGIS, R spatial…). Maintained by ULB.",
+    "res.community.propose.eyebrow":"Contribute",
+    "res.community.propose.title":  "Suggest a resource",
+    "res.community.propose.text":   "Do you have a useful resource to share with the community? OGC data, training material, script, QGIS plugin, PostGIS tool… Open a GitHub Issue and the board will add it to this page.",
+    "res.community.propose.cta":    "Suggest via GitHub Issues →",
+    "res.community.propose.format": "Expected issue format: Name · URL · Short description (1 sentence) · Category (data / education / tools)",
+
+    // SUPPORT (en)
+    "res.support.eyebrow":          "Help",
+    "res.support.title":            "Support & peer help",
+    "res.support.sub":              "For technical questions about free geospatial software, existing forums are the best resource: they bring together thousands of active users with searchable archives.",
+    "res.support.local.cat":        "OSGeo Belgium channels",
+    "res.support.official.cat":     "Official forums by software",
+    "res.support.ml.desc":          "OSGeo Belgium mailing list — for general questions to the Belgian community.",
+    "res.support.matrix.desc":      "Matrix room #osgeo-be — real-time chat, ideal for quick questions.",
+    "res.support.se.desc":          "GIS Stack Exchange — the global reference for all GIS questions, across all software.",
+    "res.support.qgis.desc":        "Official QGIS forum — bugs, plugins, processing, PyQGIS.",
+    "res.support.postgis.desc":     "Official PostGIS mailing list — spatial queries, performance, extensions.",
+    "res.support.geoserver.desc":   "GeoServer users list — configuration, SLD, WFS, WMS.",
+    "res.support.gdal.desc":        "GDAL/OGR mailing list — format conversion, scripts, drivers.",
 
     // CODE OF CONDUCT
     "coc.hero.title":   "Code of Conduct",
