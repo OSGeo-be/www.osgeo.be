@@ -1,50 +1,6 @@
-// === DETECT BROWSER LANGUAGE ===
-function detectLanguage() {
-  const lang = (window.navigator.language || window.navigator.userLanguage || 'fr').substring(0, 2).toLowerCase();
-  const supported = ['fr', 'nl', 'en'];
-  return supported.includes(lang) ? lang : 'fr';
-}
-
-// === LOAD LANGUAGE FROM STORAGE OR DETECT ===
-function getInitialLang() {
-  const stored = localStorage.getItem('osgeo-be-lang');
-  return stored || detectLanguage();
-}
-
-// === SAVE LANGUAGE PREFERENCE ===
-function saveLanguage(lang) {
-  localStorage.setItem('osgeo-be-lang', lang);
-}
-
 // === i18n INIT (must run before anything else) ===
 document.addEventListener('DOMContentLoaded', () => {
-  const lang = getInitialLang();
-  I18N.init(lang);
-  
-  // Set active language button
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.remove('active');
-    if (btn.dataset.lang === lang) {
-      btn.classList.add('active');
-    }
-  });
-});
-
-// === LANGUAGE SWITCHER ===
-document.querySelectorAll('.lang-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const lang = btn.dataset.lang;
-    
-    // Update active state
-    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    
-    // Update translations
-    I18N.setLanguage(lang);
-    
-    // Save preference
-    saveLanguage(lang);
-  });
+  I18N.init();
 });
 
 // === BURGER MENU ===
