@@ -149,6 +149,7 @@ img, svg { display: block; }
   border-radius: var(--radius);
   transition: var(--t);
   text-decoration: none;
+  white-space: nowrap;
 }
 .nav-links a:hover,
 .nav-links a.active { color: #fff; background: rgba(255,255,255,.1); }
