@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ressources géospatiales d'OSGeo Belgium - Logiciels libres, données ouvertes, prestataires." />
+  <meta property="og:title" content="Ressources — OSGeo Belgium" />
+  <meta property="og:description" content="Logiciels libres OSGeo, données géographiques ouvertes et prestataires spécialisés." />
+  <meta property="og:url" content="https://www.osgeo.be/resources.html" />
+  <meta property="og:type" content="website" />
   <title>Ressources — OSGeo Belgium</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
@@ -20,7 +25,7 @@
       <ul class="nav-links">
         <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
         <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
-        <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+        <li><a href="ag.html" data-i18n="nav.ag">AG & PV</a></li>
         <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
         <li><a href="resources.html" class="active" data-i18n="nav.resources">Ressources</a></li>
         <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
@@ -129,36 +134,36 @@
           <p class="section-sub" data-i18n="res.software.sub">Projets certifiés par l'Open Source Geospatial Foundation, couvrant tous les besoins géospatiaux.</p>
         </div>
 
-        <div style="background:var(--green-pale);border:1px solid #b8e0c0;border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin-bottom:1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+        <div class="osgeo-catalog">
           <div>
-            <p style="font-weight:600;margin-bottom:.25rem;" data-i18n="res.software.osgeo">Catalogue officiel OSGeo</p>
-            <p style="font-size:.85rem;color:var(--text-muted);" data-i18n="res.software.intro">Liste complète des projets certifiés OSGeo, avec documentation et liens de téléchargement.</p>
+            <p class="osgeo-catalog-title" data-i18n="res.software.osgeo">Catalogue officiel OSGeo</p>
+            <p class="osgeo-catalog-desc" data-i18n="res.software.intro">Liste complète des projets certifiés OSGeo, avec documentation et liens de téléchargement.</p>
           </div>
           <a href="https://www.osgeo.org/projects/" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">osgeo.org/projects →</a>
         </div>
 
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;">
+        <div class="res-categories-grid">
 
-          <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;">
-            <p style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.6rem;">Desktop Applications</p>
-            <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+          <div class="res-category-card">
+            <p class="res-category-title">Desktop Applications</p>
+            <div class="res-pills">
               <a href="https://www.osgeo.org/projects/qgis/" target="_blank" rel="noopener" class="res-pill">QGIS</a>
               <a href="https://www.osgeo.org/projects/gvsig/" target="_blank" rel="noopener" class="res-pill">gvSIG</a>
               <a href="https://www.osgeo.org/projects/marble/" target="_blank" rel="noopener" class="res-pill">Marble</a>
             </div>
           </div>
 
-          <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;">
-            <p style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.6rem;">Spatial Databases</p>
-            <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+          <div class="res-category-card">
+            <p class="res-category-title">Spatial Databases</p>
+            <div class="res-pills">
               <a href="https://www.osgeo.org/projects/postgis/" target="_blank" rel="noopener" class="res-pill">PostGIS</a>
               <a href="https://www.osgeo.org/projects/pgrouting/" target="_blank" rel="noopener" class="res-pill">pgRouting</a>
             </div>
           </div>
 
-          <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;">
-            <p style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.6rem;">Web Mapping</p>
-            <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+          <div class="res-category-card">
+            <p class="res-category-title">Web Mapping</p>
+            <div class="res-pills">
               <a href="https://www.osgeo.org/projects/geoserver/" target="_blank" rel="noopener" class="res-pill">GeoServer</a>
               <a href="https://www.osgeo.org/projects/mapserver/" target="_blank" rel="noopener" class="res-pill">MapServer</a>
               <a href="https://www.osgeo.org/projects/openlayers/" target="_blank" rel="noopener" class="res-pill">OpenLayers</a>
@@ -171,9 +176,9 @@
             </div>
           </div>
 
-          <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;">
-            <p style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.6rem;">Geospatial Libraries</p>
-            <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+          <div class="res-category-card">
+            <p class="res-category-title">Geospatial Libraries</p>
+            <div class="res-pills">
               <a href="https://www.osgeo.org/projects/gdal/" target="_blank" rel="noopener" class="res-pill">GDAL/OGR</a>
               <a href="https://www.osgeo.org/projects/proj/" target="_blank" rel="noopener" class="res-pill">PROJ</a>
               <a href="https://www.osgeo.org/projects/geos/" target="_blank" rel="noopener" class="res-pill">GEOS</a>
@@ -184,17 +189,17 @@
             </div>
           </div>
 
-          <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;">
-            <p style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.6rem;">Metadata Catalogs</p>
-            <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+          <div class="res-category-card">
+            <p class="res-category-title">Metadata Catalogs</p>
+            <div class="res-pills">
               <a href="https://www.osgeo.org/projects/geonetwork/" target="_blank" rel="noopener" class="res-pill">GeoNetwork</a>
               <a href="https://www.osgeo.org/projects/pycsw/" target="_blank" rel="noopener" class="res-pill">pycsw</a>
             </div>
           </div>
 
-          <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;">
-            <p style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.6rem;">Content Management / Other</p>
-            <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+          <div class="res-category-card">
+            <p class="res-category-title">Content Management / Other</p>
+            <div class="res-pills">
               <a href="https://www.osgeo.org/projects/geonode/" target="_blank" rel="noopener" class="res-pill">GeoNode</a>
               <a href="https://live.osgeo.org/en/index.html" target="_blank" rel="noopener" class="res-pill">OSGeoLive</a>
             </div>
@@ -202,15 +207,15 @@
 
         </div>
 
-        <div style="margin-top:1.5rem;padding:1.25rem 1.5rem;background:var(--green-pale);border:1px solid #b8e0c0;border-radius:var(--radius-lg);display:flex;gap:1.25rem;align-items:flex-start;flex-wrap:wrap;">
-          <div style="flex:1;min-width:200px;">
-            <p style="font-weight:700;margin-bottom:.3rem;">💿 OSGeo-Live</p>
-            <p style="font-size:.85rem;color:var(--text-muted);margin-bottom:.75rem;" data-i18n="res.osgeolive.desc">La meilleure façon de découvrir tous ces logiciels sans installation : une clé USB ou VM avec +50 applications géospatiales préconfigurées.</p>
+        <div class="osgeolive-card">
+          <div>
+            <p class="osgeolive-card-title">💿 OSGeo-Live</p>
+            <p class="osgeolive-card-desc" data-i18n="res.osgeolive.desc">La meilleure façon de découvrir tous ces logiciels sans installation : une clé USB ou VM avec +50 applications géospatiales préconfigurées.</p>
             <a href="https://live.osgeo.org/en/index.html" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Télécharger OSGeo-Live →</a>
           </div>
         </div>
 
-        <div style="margin-top:1rem;padding:1rem 1.25rem;background:#f0f7ff;border:1px solid #c5d8f0;border-radius:var(--radius);font-size:.875rem;">
+        <div class="ml-info">
           <strong data-i18n="res.ml.question">Une question sur un logiciel ?</strong>
           <span data-i18n="res.ml.text"> N'hésitez pas à ouvrir une nouvelle discussion sur la </span>
           <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/belgium" target="_blank" rel="noopener">mailing list OSGeo Belgium</a>.
@@ -221,33 +226,24 @@
       <!-- PRESTATAIRES & FORMATIONS -->
       <div class="links-section">
         <div class="links-section-header">
-          <span class="section-eyebrow" data-i18n="res.companies.eyebrow">Prestataires &amp; Formations</span>
-          <h2 class="section-title" data-i18n="res.companies.title">Services, Formations &amp; GeoDev Evenings</h2>
+          <span class="section-eyebrow" data-i18n="res.companies.eyebrow">Prestataires & Formations</span>
+          <h2 class="section-title" data-i18n="res.companies.title">Services, Formations & GeoDev Evenings</h2>
           <p class="section-sub" data-i18n="res.companies.sub">Acteurs proposant des services, formations et développements autour des logiciels libres géospatiaux. Les GeoDev Evenings sont le format privilégié pour le partage de connaissances et les démonstrations.</p>
         </div>
 
-        <div style="background:var(--green-pale);border:1px solid #b8e0c0;border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin-bottom:1.25rem;display:flex;gap:1.25rem;align-items:flex-start;flex-wrap:wrap;">
-          <div style="flex:1;min-width:220px;">
-            <p style="font-weight:700;margin-bottom:.3rem;" data-i18n="res.geodev.title">🗓️ Organiser un GeoDev Evening</p>
-            <p style="font-size:.875rem;color:var(--text-muted);margin-bottom:.75rem;" data-i18n="res.geodev.desc">OSGeo Belgium peut co-organiser un GeoDev Evening pour votre équipe, votre entreprise ou votre communauté : formation, démo, débat ou transfert de connaissances autour du géospatial libre.</p>
+        <div class="geodev-promo">
+          <div>
+            <p class="geodev-promo-title">🗓️ Organiser un GeoDev Evening</p>
+            <p class="geodev-promo-desc" data-i18n="res.geodev.desc">OSGeo Belgium peut co-organiser un GeoDev Evening pour votre équipe, votre entreprise ou votre communauté : formation, démo, débat ou transfert de connaissances autour du géospatial libre.</p>
             <a href="mailto:board@osgeo.be" class="btn btn-ghost btn-sm" data-i18n="res.geodev.cta">Proposer un GeoDev Evening</a>
           </div>
         </div>
 
-        <div style="background:#fff8f0;border:1px solid #f0d0a0;border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin-bottom:1.25rem;display:flex;gap:1.25rem;align-items:flex-start;flex-wrap:wrap;">
-          <div style="flex:1;min-width:220px;">
-            <p style="font-weight:700;margin-bottom:.3rem;" data-i18n="res.sticker.title">🏷️ Sticker OSGeo Belgium</p>
-            <p style="font-size:.875rem;color:var(--text-muted);margin-bottom:.75rem;" data-i18n="res.sticker.desc">Soutenez OSGeo Belgium et affichez vos couleurs ! Envoyez une demande par mail au board pour recevoir votre sticker.</p>
-            <a href="mailto:board@osgeo.be" class="btn btn-ghost btn-sm" data-i18n="res.sticker.cta">Demander mon sticker</a>
-          </div>
+        <div class="companies-info">
+          <strong data-i18n="res.companies.building">Cette section est en construction</strong> — <span data-i18n="res.companies.building2">nous travaillons à référencer les acteurs belges du géospatial libre.</span>
+          <span data-i18n="res.companies.building3">Votre entreprise devrait y figurer ?</span> <a href="mailto:board@osgeo.be" data-i18n="res.companies.building4">Contactez-nous !</a>
         </div>
 
-        <div style="border:2px dashed var(--border);border-radius:var(--radius-lg);padding:2.5rem;text-align:center;">
-          <p style="font-size:1.5rem;margin-bottom:.75rem;">🏗️</p>
-          <p style="font-weight:600;margin-bottom:.5rem;" data-i18n="res.companies.building">Cette section est en construction.</p>
-          <p style="font-size:.875rem;color:var(--text-muted);max-width:480px;margin:0 auto;" data-i18n="res.companies.invite">* Vous souhaitez y figurer ? Contactez le board pour soumettre votre candidature.</p>
-          <a href="mailto:board@osgeo.be" class="btn btn-ghost btn-sm" style="margin-top:1.25rem;" data-i18n="res.companies.cta">Contacter via la mailing list</a>
-        </div>
       </div>
 
     </div>
@@ -265,7 +261,7 @@
           <ul>
             <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
             <li><a href="archive.html" data-i18n="nav.events">Événements</a></li>
-            <li><a href="ag.html" data-i18n="nav.ag">AG &amp; PV</a></li>
+            <li><a href="ag.html" data-i18n="nav.ag">AG & PV</a></li>
             <li><a href="links.html" data-i18n="nav.links">Sites amis</a></li>
             <li><a href="resources.html" data-i18n="nav.resources">Ressources</a></li>
             <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
@@ -294,6 +290,11 @@
       </div>
       <div class="footer-bottom">
         <p>© 2025 OSGeo Belgium — BE 0641.662.720 — IBAN BE78 5230 8075 3686 (Triodos)</p>
+        <p class="footer-legal-sm">
+          <a href="coc.html" data-i18n="footer.coc">Code de conduite</a> ·
+          <span data-i18n="footer.license">Contenu sous licence CC-BY 3.0</span> ·
+          <a href="https://github.com/OSGeo-be" target="_blank" rel="noopener" data-i18n="footer.feedback">Feedback sur GitHub</a>
+        </p>
         <div class="footer-social">
           <a href="https://fosstodon.org/@osgeobe" target="_blank" rel="noopener" title="Mastodon">M</a>
           <a href="https://twitter.com/osgeobe" target="_blank" rel="noopener" title="Twitter">X</a>
