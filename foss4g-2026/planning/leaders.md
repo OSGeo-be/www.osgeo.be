@@ -107,7 +107,7 @@ Spaces: Auditorium 300p (plenary) · Room A 60p (track) · Room B 40p split 2×2
 | | |
 |-|-|
 | **Lead** | _to assign_ |
-| **Members** | _to fill in_ |
+| **Members** | Marc |
 | **Channel** | Matrix `#foss4g2026-comms:matrix.org` |
 
 **Key tasks:**
