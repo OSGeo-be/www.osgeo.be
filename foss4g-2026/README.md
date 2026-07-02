@@ -17,7 +17,7 @@
 | [Catering & Sponsors](#) | Xavier, Charlotte, Gaël | 🟡 In progress |
 | [Programme / CfP](#) | Maëlle, Hugo, Céline | 🟡 In progress |
 | [Volunteers](#) | _to assign_ | 🔴 Not started |
-| [Communications](#) | _to assign_ | 🔴 Not started |
+| [Communications](#) | _to assign_ | 🟡 In progress |
 | [Registration](#) | _to assign_ | 🔴 Not started |
 | [Maps Competition](#) | Roel | 🟡 In progress |
 
@@ -29,8 +29,8 @@
 
 | Call | Status | Deadline | Details |
 |------|--------|----------|---------|
-| 📣 Call for Sponsors | _Not yet open_ | — | [calls/call-for-sponsors.md](calls/call-for-sponsors.md) |
-| 📣 Call for Presentations | _Not yet open_ | — | [calls/call-for-presentations.md](calls/call-for-presentations.md) |
+| 📣 Call for Sponsors | 🟢 Open | 31 Aug 2026 (logos) | [calls/call-for-sponsors.md](calls/call-for-sponsors.md) |
+| 📣 Call for Presentations | 🟢 Open | 9 Aug 2026 | [calls/call-for-presentations.md](calls/call-for-presentations.md) |
 | 📣 Call for Volunteers | _Not yet open_ | — | [calls/call-for-volunteers.md](calls/call-for-volunteers.md) |
 | 📣 Call for Maps | _Not yet open_ | — | [calls/call-for-maps.md](calls/call-for-maps.md) |
 

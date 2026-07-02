@@ -1,7 +1,7 @@
 # Call for Proposals — FOSS4G Belgium 2026
 
-> **Status:** 🔴 Not yet open  
-> **Submission deadline:** 9–10 August 2026  
+> **Status:** 🟢 Open  
+> **Submission deadline:** 9 August 2026  
 > **Speaker notification:** 25 August 2026  
 > **Platform:** [Framaforms](https://framaforms.org) (Call for proposals | Framaforms.org)  
 > **Contact:** [presentation@foss4g.be](mailto:presentation@foss4g.be)  
@@ -114,7 +114,7 @@ Of je nu een onderwerp wilt presenteren, een kaart wilt tonen of een poster wilt
 
 ### Deadline
 
-De deadline voor het insturen van voorstellen is **10 augustus 2026**, maar we nodigen sprekers uit om hun voorstellen zo snel mogelijk in te sturen. Voorstellen zullen geëvalueerd worden door het programmacomité en de auteurs zullen bericht krijgen of hun bijdrage aanvaard werd.
+De deadline voor het insturen van voorstellen is **9 augustus 2026**, maar we nodigen sprekers uit om hun voorstellen zo snel mogelijk in te sturen. Voorstellen zullen geëvalueerd worden door het programmacomité en de auteurs zullen bericht krijgen of hun bijdrage aanvaard werd.
 
 Alle aanvaarde voorstellen zullen op de website geplaatst worden.
 
@@ -197,7 +197,7 @@ Contactez-nous à [presentation@foss4g.be](mailto:presentation@foss4g.be)
 
 | Channel | Done? | Planned date | Note |
 |---------|-------|--------------|------|
-| Mailing list | ☐ | 7 July 2026 | |
+| Mailing list | ✅ | Late June 2026 | [archive](https://lists.osgeo.org/pipermail/belgium/2026-June/001238.html) |
 | Matrix | ☐ | 7 July 2026 | |
 | Mastodon | ☐ | 7 July 2026 | |
 | LinkedIn | ☐ | 7 July 2026 | |
