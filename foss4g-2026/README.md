@@ -40,6 +40,7 @@
 
 ```
 June 2026       ── Venue confirmed · Call for Sponsors launched
+16 Jul 2026     ── Meeting at Cercle des Voyageurs, Brussels
 July 2026       ── Call for Presentations · Volunteers · Maps open
 August 2026     ── Call for Presentations closes (early Aug) · Programme selection
 September 2026  ── Programme published · Registrations open (Pretix)
@@ -77,6 +78,6 @@ All planned posts across every channel:
 
 ## Resources
 
-- Event page: [www.osgeo.be/foss4g-2026.html](https://www.osgeo.be/foss4g-2026.html)
+- Event page: [foss4g.be](https://www.foss4g.be)
 - Past editions: [archive](https://www.osgeo.be/archive.html)
 - Shared Drive: OSGeo.be shared / FOSS4G 2026 _(access on request)_
