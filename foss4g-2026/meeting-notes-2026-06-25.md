@@ -8,62 +8,62 @@
 
 ## Communication
 
-Il est nécessaire de lancer rapidement la communication pour les présentations et les sponsors.
+It is necessary to quickly start communication for presentations and sponsors.
 
-> → **Gaël ou Marc**, pouvez-vous pousser les mises à jour de ces pages (après les modifications mentionnées ci-dessous) ?
+> → **Gaël or Marc**, can you push the updates to these pages (after the modifications mentioned below)?
 
-Question ouverte : deux sites web ont été trouvés — lequel communiquer sur les réseaux sociaux ?
+Open question: two websites have been found — which one should be communicated on social media?
 - https://osgeo-be.github.io/draft.2026.foss4g.be/fr
 - https://www.osgeo.be/foss4g-2026.html
 
-### Deux types de communication
+### Two types of communication
 
 **Sponsors**
-- Géré par le groupe : Gaël, Xavier & Charlie
-- Gaël et Xavier : comment cela se passe-t-il habituellement ? Un mail type est-il prêt ?
+- To be managed by the group: Gaël, Xavier & Charlie
+- Gaël and Xavier: how is this usually done? Is there a prepared email template?
 
-**Présentateurs et participants**
-- Matériel à préparer par Céline, Charlie (autres volontaires ?)
-- Les personnes ayant accès aux comptes réseaux sociaux pourront ensuite diffuser
-- → Qui a accès à quoi ?
-
----
-
-## Inscription
-
-Quelqu'un se propose-t-il pour piloter la préparation de l'inscription ?  
-Première étape : évaluer **Pretix** comme plateforme d'inscription.
+**Presenters and general participants**
+- Material to be prepared by Céline, Charlie (any other volunteers?)
+- Those with access to the social media accounts can then share
+- → Who has access to what?
 
 ---
 
-## Points généraux
+## Registration
 
-**Calendrier :** Il semble y avoir un problème — la sélection des propositions par le comité est mi-octobre, mais FOSS4G a également lieu à cette période. La sélection devrait avoir lieu au moins deux semaines avant l'événement.  
-→ **Céline** fera le point avec Maëlle et Hugo.
+Does someone propose themselves to lead the preparation for registration?  
+First step: evaluate **Pretix** as a registration platform.
 
 ---
 
-## Retours sur le site web (Marc)
+## General points
 
-> Issues identifiées sur https://osgeo-be.github.io/draft.2026.foss4g.be/fr à corriger avant mise en ligne :
+**Calendar:** There seems to be a problem — the selection of proposals by the committee is mid-October, but FOSS4G also takes place around that time. The selection should happen at least two weeks before the event.  
+→ **Céline** will look into this with Maëlle and Hugo.
 
-| Page | Problème | Action |
+---
+
+## Website feedback (Marc)
+
+> Issues identified on https://osgeo-be.github.io/draft.2026.foss4g.be/fr to fix before going live:
+
+| Page | Issue | Action |
 |---|---|---|
-| Page d'accueil | Bouton inscription → lien vers la liste d'attente Prefix cassé | Corriger le lien ou remplacer par « bientôt disponible » |
-| Page sponsors | Encart « Community » trop bas | Remonter juste sous les autres niveaux de sponsoring |
-| [Call for Presentations](https://osgeo-be.github.io/draft.2026.foss4g.be/fr/present) | Date limite indiquée comme le 10 au lieu du **9 août** (FR et NL) | Vérifier en haut de page, dans le calendrier et dans l'encart deadline |
-| [Call for Maps](https://osgeo-be.github.io/draft.2026.foss4g.be/fr/maps) | Lien « s'inscrire à la mailing list » | Remplacer par [call for maps](https://framaforms.org/call-for-proposals-1780600203) |
+| Home | Registration button → link to Pretix waiting list is broken | Fix the link, or replace with "coming soon" |
+| Sponsors | "Community" box placed too low | Move it up, just below the other sponsor packages |
+| [Call for Presentations](https://osgeo-be.github.io/draft.2026.foss4g.be/fr/present) | Deadline shown as 10th instead of **9 August** (FR and NL) | Check at top of page, in the calendar and in the deadline box |
+| [Call for Maps](https://osgeo-be.github.io/draft.2026.foss4g.be/fr/maps) | "Subscribe to mailing list" link | Replace with [call for maps](https://framaforms.org/call-for-proposals-1780600203) |
 
 ---
 
-## Notes hors réunion
+## Out-of-meeting notes
 
-- ✅ **Catering confirmé** : Cannelle ASBL a confirmé sa disponibilité. Processus à suivre ; les recontacter sans doute en août pour finaliser les détails pratiques.
+- ✅ **Catering confirmed**: Cannelle ASBL confirmed their availability. Process to follow; likely to be contacted again in August to finalise practical details.
 
-- ✅ **Site FOSS4G mis à jour** : [foss4g.be](https://www.foss4g.be) est en ligne avec le contenu 2026 (call for proposals, become sponsor, etc.).
+- ✅ **FOSS4G website updated**: [foss4g.be](https://www.foss4g.be) is live with 2026 content (call for proposals, become sponsor, etc.).
 
-- ✅ **Site OSGeo.be adapté** : [www.osgeo.be](https://www.osgeo.be) a été mis à jour en conséquence, avec des ajouts suite aux suggestions de Maëlle.
+- ✅ **OSGeo.be website updated**: [www.osgeo.be](https://www.osgeo.be) has been adapted accordingly, with additions following Maëlle's suggestions.
 
-- ✅ **Mail call for presentations envoyé** : diffusé via la mailing list OSGeo Belgium — [voir l'archive](https://lists.osgeo.org/pipermail/belgium/2026-June/001238.html).
+- ✅ **Call for presentations email sent**: distributed via the OSGeo Belgium mailing list — [see archive](https://lists.osgeo.org/pipermail/belgium/2026-June/001238.html).
 
-- ✅ **Mail call for sponsors prêt** depuis environ le 20 juin — [voir le document](https://drive.google.com/file/d/1pWlqjRziAMFg644sY3fGJPN9S4FEArVL/view?usp=drive_link).
+- ✅ **Call for sponsors email ready** since approximately 20 June — [see document](https://drive.google.com/file/d/1pWlqjRziAMFg644sY3fGJPN9S4FEArVL/view?usp=drive_link).
