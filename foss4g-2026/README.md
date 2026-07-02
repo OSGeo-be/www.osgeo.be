@@ -3,6 +3,8 @@
 > **📅 15 October 2026 · 📍 Brussels, Belgium**
 > Organised by [OSGeo Belgium](https://www.osgeo.be)
 
+📋 **[Meeting notes — 25 June 2026](meeting-notes-2026-06-25.md)** — Communication, registration, website fixes, catering confirmed. · [Google Doc](https://docs.google.com/document/d/1YxoK2f60w5pOigLS3ODPpCm5qB_085KYBwJ69er74AQ/edit?tab=t.0)
+
 📋 **[Meeting notes — 4 June 2026](meeting-notes-2026-06-04.md)** — Kick-off meeting: catering decided (Cannelle), working groups assigned, key dates confirmed.
 
 ---
