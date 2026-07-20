@@ -107,7 +107,7 @@ Spaces: Auditorium 300p (plenary) · Room A 60p (track) · Room B 40p split 2×2
 | | |
 |-|-|
 | **Lead** | _to assign_ |
-| **Members** | Marc |
+| **Members** | Céline, Marc, Killian, Charlie, Roel |
 | **Channel** | Matrix `#foss4g2026-comms:matrix.org` |
 
 **Key tasks:**
@@ -123,7 +123,7 @@ Spaces: Auditorium 300p (plenary) · Room A 60p (track) · Room B 40p split 2×2
 ### 🎟️ Registration
 | | |
 |-|-|
-| **Lead** | _to assign_ |
+| **Lead** | Killian |
 | **Members** | _to fill in_ |
 | **Channel** | Matrix `#foss4g2026-reg:matrix.org` |
 

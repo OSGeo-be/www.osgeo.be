@@ -1,8 +1,8 @@
 # Call for Proposals — FOSS4G Belgium 2026
 
 > **Status:** 🟢 Open  
-> **Submission deadline:** 9 August 2026  
-> **Speaker notification:** 25 August 2026  
+> **Submission deadline:** 31 August 2026  
+> **Speaker notification:** TBC  
 > **Platform:** [Framaforms](https://framaforms.org) (Call for proposals | Framaforms.org)  
 > **Contact:** [presentation@foss4g.be](mailto:presentation@foss4g.be)  
 > **Source document:** https://docs.google.com/document/d/1QKttxDFFN3mSrKqLyVVIS6hcKx5xvL9wLZAkxyp3iWE/edit?tab=t.0
@@ -14,7 +14,7 @@
 ### Help make our 2026 edition a success.
 
 FOSS4G Belgium will take place on **15 October 2026**.  
-Submit your proposal before **10 August 2026**!
+Submit your proposal before **31 August 2026**!
 
 We aim for a wide variety of speakers and topics: technology, science, user experiences and interesting (or special) uses. Whether you want to present a topic, showcase a map or share a poster, there is a format for you!
 
@@ -58,7 +58,7 @@ Your proposal should include:
 
 ### Deadline
 
-Deadline for submission is **9 August 2026**, but we invite presenters to submit their proposals as soon as possible. Proposals will be evaluated by a program committee and authors will be notified of their acceptance.
+Deadline for submission is **31 August 2026**, but we invite presenters to submit their proposals as soon as possible. Proposals will be evaluated by a program committee and authors will be notified of their acceptance.
 
 All accepted proposals will be made available on the event website.
 
@@ -77,7 +77,7 @@ Contact us at [presentation@foss4g.be](mailto:presentation@foss4g.be)
 ### Oproep voor voorstellen — Help ons om van de editie van 2026 een succes te maken!
 
 FOSS4G België vindt plaats op **15 oktober 2026**.  
-Stuur jouw voorstel in voor **10 augustus 2026**!
+Stuur jouw voorstel in voor **31 augustus 2026**!
 
 We mikken op een grote variatie aan sprekers: technologie, wetenschap, eindgebruikers en interessante (of bijzondere) gebruiksdoeleinden. We maken er graag opnieuw een conferentie van met een grote mate van diversiteit, zowel in onderwerpen als in mensen.
 
@@ -114,7 +114,7 @@ Of je nu een onderwerp wilt presenteren, een kaart wilt tonen of een poster wilt
 
 ### Deadline
 
-De deadline voor het insturen van voorstellen is **9 augustus 2026**, maar we nodigen sprekers uit om hun voorstellen zo snel mogelijk in te sturen. Voorstellen zullen geëvalueerd worden door het programmacomité en de auteurs zullen bericht krijgen of hun bijdrage aanvaard werd.
+De deadline voor het insturen van voorstellen is **31 augustus 2026**, maar we nodigen sprekers uit om hun voorstellen zo snel mogelijk in te sturen. Voorstellen zullen geëvalueerd worden door het programmacomité en de auteurs zullen bericht krijgen of hun bijdrage aanvaard werd.
 
 Alle aanvaarde voorstellen zullen op de website geplaatst worden.
 
@@ -133,7 +133,7 @@ Stel je vragen via [presentation@foss4g.be](mailto:presentation@foss4g.be)
 ### Appel à propositions — Contribuez au succès de l'édition 2026.
 
 FOSS4G Belgique aura lieu le **15 octobre 2026**.  
-Soumettez votre proposition avant le **10 août 2026**!
+Soumettez votre proposition avant le **31 août 2026**!
 
 Nous sommes libres de couvrir une grande variété de publics et de sujets en lien avec la géomatique : techno, geek, cas d'usage publics, privés ou professionnels. Notre objectif est de faire une conférence avec un haut niveau de diversité, tant dans les sujets que dans les personnes.
 
@@ -179,7 +179,7 @@ Votre proposition doit inclure :
 
 ### Date limite
 
-La date limite de soumission est fixée au **9 août 2026**, mais nous invitons à soumettre la proposition dès que possible. Les propositions seront évaluées par le Comité du programme et les auteurs seront informés si leur contribution a été acceptée.
+La date limite de soumission est fixée au **31 août 2026**, mais nous invitons à soumettre la proposition dès que possible. Les propositions seront évaluées par le Comité du programme et les auteurs seront informés si leur contribution a été acceptée.
 
 Tous les projets acceptés seront publiés sur le site web de l'événement.
 
@@ -204,6 +204,6 @@ Contactez-nous à [presentation@foss4g.be](mailto:presentation@foss4g.be)
 | Twitter/X | ☐ | 7 July 2026 | |
 | Facebook | ☐ | 7 July 2026 | |
 | Telegram | ☐ | 7 July 2026 | |
-| **Reminder −14 days** | ☐ | 26 July 2026 | "2 weeks left!" |
-| **Reminder −7 days** | ☐ | 3 August 2026 | "Last week!" |
-| **Closed** | ☐ | 10 August 2026 | "Submissions are closed" |
+| **Reminder −14 days** | ☐ | 17 August 2026 | "2 weeks left!" |
+| **Reminder −7 days** | ☐ | 24 August 2026 | "Last week!" |
+| **Closed** | ☐ | 31 August 2026 | "Submissions are closed" |

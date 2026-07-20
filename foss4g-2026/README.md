@@ -3,6 +3,8 @@
 > **📅 15 October 2026 · 📍 Brussels, Belgium**
 > Organised by [OSGeo Belgium](https://www.osgeo.be)
 
+📋 **[Meeting notes — 16 July 2026](meeting-notes-2026-07-16.md)** — Deadline extended to 31 Aug, Killian leads registration, Xavier leads sponsors, social media access clarified. · [Google Doc](https://docs.google.com/document/d/1RfzO6-wiPps4Omnn0SABfpKGJZP540Igftx7-TGaQxg/edit?tab=t.0)
+
 📋 **[Meeting notes — 25 June 2026](meeting-notes-2026-06-25.md)** — Communication, registration, website fixes, catering confirmed. · [Google Doc](https://docs.google.com/document/d/1YxoK2f60w5pOigLS3ODPpCm5qB_085KYBwJ69er74AQ/edit?tab=t.0)
 
 📋 **[Meeting notes — 4 June 2026](meeting-notes-2026-06-04.md)** — Kick-off meeting: catering decided (Cannelle), working groups assigned, key dates confirmed.
@@ -18,7 +20,7 @@
 | [Programme / CfP](#) | Maëlle, Hugo, Céline | 🟡 In progress |
 | [Volunteers](#) | _to assign_ | 🔴 Not started |
 | [Communications](#) | _to assign_ | 🟡 In progress |
-| [Registration](#) | _to assign_ | 🔴 Not started |
+| [Registration](#) | Killian | 🟡 In progress |
 | [Maps Competition](#) | Roel | 🟡 In progress |
 
 👉 Full task list: [planning/leaders.md](planning/leaders.md)
@@ -30,7 +32,7 @@
 | Call | Status | Deadline | Details |
 |------|--------|----------|---------|
 | 📣 Call for Sponsors | 🟢 Open | 31 Aug 2026 (logos) | [calls/call-for-sponsors.md](calls/call-for-sponsors.md) |
-| 📣 Call for Presentations | 🟢 Open | 9 Aug 2026 | [calls/call-for-presentations.md](calls/call-for-presentations.md) |
+| 📣 Call for Presentations | 🟢 Open | 31 Aug 2026 | [calls/call-for-presentations.md](calls/call-for-presentations.md) |
 | 📣 Call for Volunteers | _Not yet open_ | — | [calls/call-for-volunteers.md](calls/call-for-volunteers.md) |
 | 📣 Call for Maps | _Not yet open_ | — | [calls/call-for-maps.md](calls/call-for-maps.md) |
 
@@ -42,7 +44,8 @@
 June 2026       ── Venue confirmed · Call for Sponsors launched
 16 Jul 2026     ── Meeting at Cercle des Voyageurs, Brussels
 July 2026       ── Call for Presentations · Volunteers · Maps open
-August 2026     ── Call for Presentations closes (early Aug) · Programme selection
+26 Aug 2026     ── Meeting at Cercle des Voyageurs, Brussels
+31 Aug 2026     ── Call for Presentations closes · Programme selection
 September 2026  ── Programme published · Registrations open (Pretix)
 1–10 Oct 2026   ── Final logistics · Volunteer briefing
 15 Oct 2026     ── 🎉 FOSS4G Belgium 2026
