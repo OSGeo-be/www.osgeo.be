@@ -16,7 +16,7 @@
 | Group | Lead | Status |
 |-------|------|--------|
 | [Venue & Logistics](#) | _to assign_ | 🟡 In progress |
-| [Catering & Sponsors](#) | Xavier, Charlotte, Gaël | 🟡 In progress |
+| [Catering & Sponsors](sponsors/README.md) | Xavier, Charlotte, Gaël | 🟡 In progress |
 | [Programme / CfP](#) | Maëlle, Hugo, Céline | 🟡 In progress |
 | [Volunteers](#) | _to assign_ | 🔴 Not started |
 | [Communications](#) | _to assign_ | 🟡 In progress |
