@@ -151,8 +151,8 @@
   <div class="doc-title">FOSS4G Belgium 2026 — Event Budget</div>
   <div class="doc-meta">
     <span>15 October 2026 · Tour &amp; Taxis, Brussels</span>
-    <span>All amounts in EUR · ex-VAT unless noted</span>
-    <span>Updated: 16 October 2026</span>
+    <span>Rentrées : net HTVA (montants reçus TVAC ÷ 1,21) · Dépenses : ex-VAT sauf mention</span>
+    <span>Updated: 16 October 2026 (v6)</span>
   </div>
 </div>
 
@@ -169,27 +169,29 @@
 <table>
   <thead>
     <tr>
-      <th>Partner</th><th>Tier</th><th>Status</th>
-      <th class="num">Amount ex-VAT (€)</th>
+      <th>Partner</th><th>Tier</th><th>TVA</th>
+      <th class="num">Reçu TVAC (€)</th>
+      <th class="num">Net HTVA (€)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Merkator Group</td><td><span class="badge gold">Gold</span></td><td>Confirmed</td><td class="num rev-val" data-val="1200">1,200.00</td></tr>
-    <tr><td>Geo IT</td><td><span class="badge gold">Gold</span></td><td>Confirmed</td><td class="num rev-val" data-val="1200">1,200.00</td></tr>
-    <tr><td>Atelier Cartographique</td><td><span class="badge silver">Silver</span></td><td>Confirmed</td><td class="num rev-val" data-val="500">500.00</td></tr>
-    <tr><td>Mergin Maps</td><td><span class="badge silver">Silver</span></td><td>Confirmed</td><td class="num rev-val" data-val="500">500.00</td></tr>
-    <tr><td>Champs-Libres</td><td><span class="badge silver">Silver</span></td><td>Confirmed</td><td class="num rev-val" data-val="500">500.00</td></tr>
-    <tr><td>Blue Square Hub</td><td><span class="badge silver">Silver</span></td><td>Confirmed</td><td class="num rev-val" data-val="500">500.00</td></tr>
-    <tr><td>Spacebel</td><td><span class="badge bronze">Bronze</span></td><td>Confirmed</td><td class="num rev-val" data-val="250">250.00</td></tr>
-    <tr><td>NGI</td><td><span class="badge bronze">Bronze</span></td><td>Confirmed</td><td class="num rev-val" data-val="250">250.00</td></tr>
-    <tr><td>Georhythm</td><td><span class="badge bronze">Bronze</span></td><td>Confirmed</td><td class="num rev-val" data-val="250">250.00</td></tr>
+    <tr><td>Merkator Group</td><td><span class="badge gold">Gold</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">1,200.00</td><td class="num rev-val" data-val="991.74">991.74</td></tr>
+    <tr><td>Geo IT</td><td><span class="badge gold">Gold</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">1,200.00</td><td class="num rev-val" data-val="991.74">991.74</td></tr>
+    <tr><td>Atelier Cartographique</td><td><span class="badge silver">Silver</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">500.00</td><td class="num rev-val" data-val="413.22">413.22</td></tr>
+    <tr><td>Mergin Maps</td><td><span class="badge silver">Silver</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">500.00</td><td class="num rev-val" data-val="413.22">413.22</td></tr>
+    <tr><td>Champs-Libres</td><td><span class="badge silver">Silver</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">500.00</td><td class="num rev-val" data-val="413.22">413.22</td></tr>
+    <tr><td>Blue Square Hub</td><td><span class="badge silver">Silver</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">500.00</td><td class="num rev-val" data-val="413.22">413.22</td></tr>
+    <tr><td>Spacebel</td><td><span class="badge bronze">Bronze</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">250.00</td><td class="num rev-val" data-val="206.61">206.61</td></tr>
+    <tr><td>NGI</td><td><span class="badge bronze">Bronze</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">250.00</td><td class="num rev-val" data-val="206.61">206.61</td></tr>
+    <tr><td>Georhythm</td><td><span class="badge bronze">Bronze</span></td><td><span class="vat-tag">21 %</span></td><td class="num muted-num">250.00</td><td class="num rev-val" data-val="206.61">206.61</td></tr>
     <tr>
-      <td>Registrations (Pretix)</td><td>—</td><td>Ongoing</td>
-      <td class="num tbd-cell"><input type="number" class="rev-input" placeholder="0" min="0" step="10" aria-label="Registrations"></td>
+      <td>Registrations (Pretix)</td><td>—</td><td><span class="vat-tag">21 %</span></td>
+      <td class="num tbd-cell"><input type="number" class="rev-input" data-rate="1.21" placeholder="0" min="0" step="10" aria-label="Registrations TVAC"></td>
+      <td class="num rev-htva-dyn" id="rev-htva-reg">—</td>
     </tr>
   </tbody>
   <tfoot>
-    <tr class="subtotal"><td colspan="3">Total income</td><td class="num" id="total-rev">—</td></tr>
+    <tr class="subtotal"><td colspan="4">Total income (net HTVA)</td><td class="num" id="total-rev">—</td></tr>
   </tfoot>
 </table>
 </div>
@@ -276,7 +278,7 @@
 <!-- ── SUMMARY CARDS ── -->
 <div class="cards">
   <div class="card pos">
-    <div class="cl">Total income (ex-VAT)</div>
+    <div class="cl">Total income (net HTVA)</div>
     <div class="cv" id="card-rev">—</div>
     <div class="cn">Sponsorship + registrations</div>
   </div>
@@ -291,21 +293,22 @@
     <div class="cn">Actual cash outflow</div>
   </div>
   <div class="card wide highlight">
-    <div class="cl">Balance (income − expenses ex-VAT)</div>
+    <div class="cl">Balance (rentrées HTVA − dépenses HTVA)</div>
     <div class="cv" id="card-solde">—</div>
     <div class="cn" id="card-note">Fill in yellow fields to see the final result</div>
   </div>
 </div>
 
 <div class="note">
-  <strong>VAT notes:</strong>
+  <strong>Notes TVA :</strong>
   <ul>
-    <li><strong>Cannelle:</strong> 6% VAT on catering. Quote valid 1 month — site visit may change price. Sign before 09-10-2026.</li>
-    <li><strong>Interpreters:</strong> VAT-exempt — €1,440 is the net amount, nothing to add.</li>
-    <li><strong>Drink (Zen Bar):</strong> €380.88 ex-VAT → incl. VAT = €460.86.</li>
-    <li><strong>Gifts:</strong> ~€300 stated as VAT-inclusive → ex-VAT = ~€247.93.</li>
-    <li><strong>Géné Electra:</strong> Delivery 14/10 13:00–16:00, operational from 08:30 on 15/10, pickup 16/10 09:00–12:00.</li>
-    <li><strong>Venue (Bruxelles Environnement):</strong> Free of charge.</li>
+    <li><strong>Rentrées (sponsors &amp; inscriptions) :</strong> montants reçus TVA 21% comprise. Net HTVA = montant reçu ÷ 1,21.</li>
+    <li><strong>Cannelle :</strong> TVA 6% sur catering. Offre valable 1 mois — visite de site peut modifier le prix. Signer avant 09-10-2026.</li>
+    <li><strong>Interprètes :</strong> exonéré TVA — €1 440 est le montant net, rien à ajouter.</li>
+    <li><strong>Drink (Zen Bar) :</strong> €380,88 HTVA → TVA comprise = €460,86.</li>
+    <li><strong>Cadeaux :</strong> ~€300 TVA comprise → HTVA = ~€247,93.</li>
+    <li><strong>Géné Electra :</strong> livraison 14/10 13h–16h, opérationnel dès 08h30 le 15/10, reprise 16/10 09h–12h.</li>
+    <li><strong>Salle (Bruxelles Environnement) :</strong> mise à disposition gratuite.</li>
   </ul>
 </div>
 
@@ -319,7 +322,14 @@
     let rev = 0, dep = 0, depTvac = 0;
 
     document.querySelectorAll('.rev-val').forEach(td => { rev += parseFloat(td.dataset.val) || 0; });
-    document.querySelectorAll('.rev-input').forEach(i => { rev += parseFloat(i.value) || 0; });
+    document.querySelectorAll('.rev-input').forEach(i => {
+      const tvac = parseFloat(i.value) || 0;
+      const rate = parseFloat(i.dataset.rate) || 1.21;
+      const htva = tvac > 0 ? tvac / rate : 0;
+      rev += htva;
+      const dynCell = document.getElementById('rev-htva-reg');
+      if (dynCell) dynCell.textContent = tvac > 0 ? fmt(htva) : '—';
+    });
 
     document.querySelectorAll('.dep-val').forEach(td => {
       dep += parseFloat(td.dataset.val) || 0;
