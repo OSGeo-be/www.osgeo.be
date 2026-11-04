@@ -453,6 +453,7 @@ img, svg { display: block; }
 }
 .event-tag.tag-blue { background: var(--blue-pale); color: var(--blue); }
 .event-tag.tag-orange { background: #fff0e0; color: #b35c00; }
+.event-tag.tag-grey { background: var(--bg-alt); color: var(--text-muted); }
 
 /* === PILLARS === */
 .pillar {
