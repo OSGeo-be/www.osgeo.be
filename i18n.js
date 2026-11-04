@@ -146,7 +146,12 @@ const TRANSLATIONS = {
 
     // EVENTS 2026
     "event.tag.savethedate": "Save the date",
+    "event.tag.past":        "Événement passé",
     "event.foss4g26.desc":   "La prochaine conférence FOSS4G Belgium. Inscrivez-vous à la mailing list pour être tenu au courant.",
+    "event.foss4g26.past.desc": "Retrouvez le site de la conférence sur www.foss4g.be",
+    "month.nov2026":         "Nov 2026",
+    "event.ag.nov2026":      "Assemblée générale — 26 novembre 2026 (à confirmer)",
+    "event.ag.nov2026.desc": "Informations à suivre via la mailing list et sur ce site prochainement.",
 
     // FOSS4G 2026 PAGE
     "foss4g26.hero.sub":  "La prochaine conférence belge des logiciels libres géospatiaux.",
@@ -618,7 +623,12 @@ const TRANSLATIONS = {
 
     // EVENTS 2026
     "event.tag.savethedate": "Noteer de datum",
+    "event.tag.past":        "Voorbij",
     "event.foss4g26.desc":   "De volgende FOSS4G Belgium conferentie. Schrijf je in op de mailinglijst om op de hoogte te blijven.",
+    "event.foss4g26.past.desc": "Bekijk de conferentiewebsite op www.foss4g.be",
+    "month.nov2026":         "Nov 2026",
+    "event.ag.nov2026":      "Algemene Vergadering — 26 november 2026 (te bevestigen)",
+    "event.ag.nov2026.desc": "Meer informatie volgt via de mailinglijst en binnenkort op deze website.",
 
     // FOSS4G 2026 PAGE
     "foss4g26.hero.sub":  "De volgende Belgische conferentie over vrije geo-software.",
@@ -1087,7 +1097,12 @@ const TRANSLATIONS = {
 
     // EVENTS 2026
     "event.tag.savethedate": "Save the date",
+    "event.tag.past":        "Past event",
     "event.foss4g26.desc":   "The next FOSS4G Belgium conference. Subscribe to the mailing list to stay informed.",
+    "event.foss4g26.past.desc": "Visit the conference website at www.foss4g.be",
+    "month.nov2026":         "Nov 2026",
+    "event.ag.nov2026":      "General Assembly — 26 November 2026 (to be confirmed)",
+    "event.ag.nov2026.desc": "More information to follow via the mailing list and on this website shortly.",
 
     // FOSS4G 2026 PAGE
     "foss4g26.hero.sub":  "The next Belgian free geospatial software conference.",
